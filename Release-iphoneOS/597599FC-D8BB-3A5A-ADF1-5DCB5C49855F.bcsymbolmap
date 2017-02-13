@@ -1160,7 +1160,7 @@ ___38+[DYStorageUtils backupPersistentData]_block_invoke
 ___27+[DYStorageUtils backupNow]_block_invoke
 +[DYStorageUtils remove:storage:options:]
 +[DYStorageUtils forceCookies:]
-+[DYStorageUtils getSecondLevelDomain]
++[DYStorageUtils getSecondLevelDomain:]
 _s_sessionStorageDic
 _s_localStorageDic
 _s_cookieStorageDic

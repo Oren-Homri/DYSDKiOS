@@ -1,1 +1,1 @@
-DYApi SDK Version 2.5
+DYApi SDK Version 2.6
