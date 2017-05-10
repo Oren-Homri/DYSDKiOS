@@ -8,6 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#include <AvailabilityMacros.h>
+
+
+typedef enum {
+    DY_NOT_READY, //experiments are not ready to use
+    DY_READY_LOCAL_CACHE, //experiments loaded from local cache
+    DY_READY_AND_UPDATED, //experiments has been updated from the server and ready to use
+    DY_READY_NO_UPDATE_NEEDED //experiments loaded from local cache and no more update is needed
+} ExperimentsState;
+
 
 typedef enum {
     DY_NOT_INITIALIZED,
@@ -39,19 +49,29 @@ typedef enum {
 
 /*!
  *  Called when the experiments has been updated and ready to use
+ *  DEPRECATED - use "experimentsReadyWithState:" instead.
  */
 
 -(void)experimentsUpdatedAndReady;
+
+/*!
+ *  Called when the experiments has been updated and ready to use,
+ *  with more explained state
+ */
+-(void)experimentsReadyWithState:(ExperimentsState)state;
+
 
 /*!
  *  Called with the result of running a smart object experiments
  *
  *  @param smartObjID the smart object ID
  *  @param html       the HTML that returned (may be null)
- *  @param webView    the webview
+ *  @param View       the View to load on 
  */
 
--(void)smartObject:(NSString*)smartObjID returned:(NSString*)html on:(UIWebView*)webView;
+-(void)smartObject:(NSString*)smartObjID returned:(NSString*)html on:(UIView*)View;
+
+
 
 /*!
  *  This method is called after an Overlay or Custom Action has been triggered and a variation has

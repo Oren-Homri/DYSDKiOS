@@ -25,7 +25,7 @@
  *
  *  @return DYApi shared instance
  */
-+(DYApi*)getInstance;
++(DYApi*)getInstance ;
 
 /*!
  *  Set an delegate object to receive notifications from DYApi
@@ -306,7 +306,7 @@
 /*!
  *  Selects an HTML variation from the defined smart object and then assigns it
  * to the defined webview container; returns YES if the input parameters are valid. If
- * parameter defaultContentURL is maintained, the HTML content will be assigned in case no
+ * parameter fallBackURL is maintained, the HTML content will be assigned in case no
  * variation is returned from the Dynamic Yield server.
  * Use delegate <delegate name> to respond to no returned results manually.
  *
@@ -318,6 +318,22 @@
 
 
 -(BOOL)loadWebView:(UIWebView*)webView withSmartObject:(id)smartObjID fallbackURL:(NSURL*)fallBackURL;
+
+/*!
+ *  Selects an Image template variation from the defined smart object and then assigns it
+ * to the defined imageview container; returns YES if the input parameters are valid. If
+ * parameter fallBackURL is maintained, the URL content will be assigned in case no
+ * variation is returned from the Dynamic Yield server.
+ * Use delegate <delegate name> to respond to no returned results manually.
+ *
+ *  @param imageView    the imageView to load
+ *  @param smartObjID The smartObjectID
+ *
+ *  @return Yes if the params are not nil or empty
+ */
+
+-(BOOL)loadImageView:(UIImageView*)imageView withSmartObject:(id)smartObjID fallbackURL:(NSURL*)fallBackURL;
+
 
 /*!
  *  Get the recommended items for a given widget id in a specified context. The results are returned via the delegate.

@@ -1,0 +1,2271 @@
+BCSymbolMap Version: 2.0
+-[getScriptMsg initWithUrl:andName:]
+-[getScriptMsg getMsgType]
+-[getScriptMsg getCompleteFunc]
+-[getScriptMsg name]
+-[getScriptMsg setName:]
+-[getScriptMsg .cxx_destruct]
+_OBJC_IVAR_$_getScriptMsg._name
+Apple LLVM version 8.1.0 (clang-802.0.42)
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/getScriptMsg.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/getScriptMsg.h
+-[DYBaseMsg init]
+-[DYBaseMsg getFullUrl]
+-[DYBaseMsg getMsgType]
+-[DYBaseMsg getCompleteFunc]
+___28-[DYBaseMsg getCompleteFunc]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[DYBaseMsg getCompleteFuncForScripts]
+___38-[DYBaseMsg getCompleteFuncForScripts]_block_invoke
+___38-[DYBaseMsg getCompleteFuncForScripts]_block_invoke_2
+___copy_helper_block_.70
+___destroy_helper_block_.71
+___copy_helper_block_.77
+___destroy_helper_block_.78
+-[DYBaseMsg getCompleteFuncForErrorLog]
+___39-[DYBaseMsg getCompleteFuncForErrorLog]_block_invoke
+___39-[DYBaseMsg getCompleteFuncForErrorLog]_block_invoke_2
+___copy_helper_block_.112
+___destroy_helper_block_.113
+___copy_helper_block_.115
+___destroy_helper_block_.116
+-[DYBaseMsg getFullURL]
+-[DYBaseMsg description]
+-[DYBaseMsg filePath]
+-[DYBaseMsg setFilePath:]
+-[DYBaseMsg timeCreated]
+-[DYBaseMsg setTimeCreated:]
+-[DYBaseMsg eventsDispatcher]
+-[DYBaseMsg setEventsDispatcher:]
+-[DYBaseMsg fullUrl]
+-[DYBaseMsg setFullUrl:]
+-[DYBaseMsg userAudience]
+-[DYBaseMsg setUserAudience:]
+-[DYBaseMsg expSession]
+-[DYBaseMsg setExpSession:]
+-[DYBaseMsg pageViewCounter]
+-[DYBaseMsg setPageViewCounter:]
+-[DYBaseMsg .cxx_destruct]
+_OBJC_IVAR_$_DYBaseMsg._timeCreated
+_OBJC_IVAR_$_DYBaseMsg._eventsDispatcher
+_OBJC_IVAR_$_DYBaseMsg._expSession
+_OBJC_IVAR_$_DYBaseMsg._userAudience
+_OBJC_IVAR_$_DYBaseMsg._pageViewCounter
+___block_descriptor_tmp
+___block_descriptor_tmp.73
+___block_descriptor_tmp.79
+___block_descriptor_tmp.114
+___block_descriptor_tmp.117
+_OBJC_IVAR_$_DYBaseMsg._filePath
+_OBJC_IVAR_$_DYBaseMsg._fullUrl
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Messages/DYBaseMsg.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Messages/DYBaseMsg.h
+__destroy_helper_block_
+__copy_helper_block_
+__39-[DYBaseMsg getCompleteFuncForErrorLog]_block_invoke_2
+__39-[DYBaseMsg getCompleteFuncForErrorLog]_block_invoke
+__38-[DYBaseMsg getCompleteFuncForScripts]_block_invoke_2
+__38-[DYBaseMsg getCompleteFuncForScripts]_block_invoke
+__28-[DYBaseMsg getCompleteFunc]_block_invoke
++[DYLogger getDYStartTime]
++[DYLogger setEnableDeveloperLogs:]
++[DYLogger setRecordDeveloperLogs:]
++[DYLogger appendToRecordedDevLogs:]
++[DYLogger getDevLog]
++[DYLogger getTimeFromInit]
++[DYLogger setEventsDispatcher:]
++[DYLogger getEventsDispatcher]
++[DYLogger setWriteLogsToFile:]
++[DYLogger getWriteLogsToFileStatus]
++[DYLogger getLogLevelFromSettingsDefault]
++[DYLogger initialize]
++[DYLogger setLogLevel:]
++[DYLogger getLogLevel]
++[DYLogger switchFile]
++[DYLogger logFileHelper]
++[DYLogger writeToFile:]
+___24+[DYLogger writeToFile:]_block_invoke
++[DYLogger logMsg:]
++[DYLogger V:]
++[DYLogger D:]
++[DYLogger Developer:]
++[DYLogger I:]
++[DYLogger W:]
++[DYLogger E:]
++[DYLogger Exception:msg:]
++[DYLogger getCurrentThread]
++[DYLogger getCallingFunc]
+_s_DYStartTime
+__enableDeveloperLogs
+__recordDeveloperLogs
+__devLogRecorded
+__loggerEventsDispatcher
+_s_writeLogsToFile
+__outputFormatter
+_s_logLevel
+_s_separatorSet
+_s_fileLogCounter
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYLogger.m
+__24+[DYLogger writeToFile:]_block_invoke
+-[DYEngine initWithDispatcher:]
+_crashHandler
+-[DYEngine init]
+-[DYEngine isUpgradeOrFirstInstall]
+-[DYEngine setVersionInPref]
+-[DYEngine initializeMembers]
+-[DYEngine memoryWarning:]
+-[DYEngine stopBGTask]
+-[DYEngine stopShutdownTimer]
+___29-[DYEngine stopShutdownTimer]_block_invoke
+-[DYEngine startShutdownTimer]
+___30-[DYEngine startShutdownTimer]_block_invoke
+___30-[DYEngine startShutdownTimer]_block_invoke_2
+___copy_helper_block_.92
+___destroy_helper_block_.93
+___copy_helper_block_.109
+___destroy_helper_block_.110
+-[DYEngine onEnterBackgroundNotif:]
+-[DYEngine onEnterForegroundNotif:]
+-[DYEngine setDispatcher]
+-[DYEngine loadSettings]
+-[DYEngine currState]
+-[DYEngine setCurrState:]
+-[DYEngine currUserData]
+-[DYEngine setCurrUserData:]
+-[DYEngine msgQueueHandler]
+-[DYEngine setMsgQueueHandler:]
+-[DYEngine locationHandler]
+-[DYEngine setLocationHandler:]
+-[DYEngine settingsHolder]
+-[DYEngine setSettingsHolder:]
+-[DYEngine recommHandler]
+-[DYEngine setRecommHandler:]
+-[DYEngine statisticsMgr]
+-[DYEngine setStatisticsMgr:]
+-[DYEngine JSHandler]
+-[DYEngine setJSHandler:]
+-[DYEngine delegateHandler]
+-[DYEngine setDelegateHandler:]
+-[DYEngine gestureHandler]
+-[DYEngine setGestureHandler:]
+-[DYEngine smartObjectHandler]
+-[DYEngine setSmartObjectHandler:]
+-[DYEngine eventLoggerHandler]
+-[DYEngine setEventLoggerHandler:]
+-[DYEngine inAppNotificationHandler]
+-[DYEngine setInAppNotificationHandler:]
+-[DYEngine .cxx_destruct]
+_OBJC_IVAR_$_DYEngine._recommHandler
+_OBJC_IVAR_$_DYEngine._currState
+_OBJC_IVAR_$_DYEngine._currUserData
+_OBJC_IVAR_$_DYEngine._settingsHolder
+_OBJC_IVAR_$_DYEngine._msgQueueHandler
+_OBJC_IVAR_$_DYEngine._statisticsMgr
+_OBJC_IVAR_$_DYEngine._locationHandler
+_OBJC_IVAR_$_DYEngine._JSHandler
+_OBJC_IVAR_$_DYEngine._delegateHandler
+_OBJC_IVAR_$_DYEngine._gestureHandler
+_OBJC_IVAR_$_DYEngine._smartObjectHandler
+_OBJC_IVAR_$_DYEngine._eventLoggerHandler
+_OBJC_IVAR_$_DYEngine._inAppNotificationHandler
+___block_descriptor_tmp.94
+___block_descriptor_tmp.111
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_DYEventsDispatcherProt
+l_OBJC_LABEL_PROTOCOL_$_DYEventsDispatcherProt
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYEngine.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYEngine.h
+__30-[DYEngine startShutdownTimer]_block_invoke_2
+__30-[DYEngine startShutdownTimer]_block_invoke
+__29-[DYEngine stopShutdownTimer]_block_invoke
+SignalHandler
+crashHandler
+InstallUncaughtExceptionHandler
+-[DYEventsDispatcher initWithDispatcher:]
+-[DYEventsDispatcher init]
+___26-[DYEventsDispatcher init]_block_invoke
+-[DYEventsDispatcher registerOnEvents:]
+-[DYEventsDispatcher onNewLocation:]
+___36-[DYEventsDispatcher onNewLocation:]_block_invoke
+___36-[DYEventsDispatcher onNewLocation:]_block_invoke_2
+___copy_helper_block_.155
+___destroy_helper_block_.156
+___copy_helper_block_.159
+___destroy_helper_block_.160
+-[DYEventsDispatcher onTerminateNotif:]
+___39-[DYEventsDispatcher onTerminateNotif:]_block_invoke
+___39-[DYEventsDispatcher onTerminateNotif:]_block_invoke_2
+___copy_helper_block_.164
+___destroy_helper_block_.165
+___copy_helper_block_.167
+___destroy_helper_block_.168
+-[DYEventsDispatcher onEnterBackgroundNotif:]
+___45-[DYEventsDispatcher onEnterBackgroundNotif:]_block_invoke
+___45-[DYEventsDispatcher onEnterBackgroundNotif:]_block_invoke_2
+___copy_helper_block_.170
+___destroy_helper_block_.171
+___copy_helper_block_.173
+___destroy_helper_block_.174
+-[DYEventsDispatcher onEnterForegroundNotif:]
+___45-[DYEventsDispatcher onEnterForegroundNotif:]_block_invoke
+___45-[DYEventsDispatcher onEnterForegroundNotif:]_block_invoke_2
+___copy_helper_block_.176
+___destroy_helper_block_.177
+___copy_helper_block_.179
+___destroy_helper_block_.180
+-[DYEventsDispatcher onAppStarted]
+___34-[DYEventsDispatcher onAppStarted]_block_invoke
+___34-[DYEventsDispatcher onAppStarted]_block_invoke_2
+___copy_helper_block_.183
+___destroy_helper_block_.184
+___copy_helper_block_.186
+___destroy_helper_block_.187
+-[DYEventsDispatcher onSignificantLocation:]
+___44-[DYEventsDispatcher onSignificantLocation:]_block_invoke
+___44-[DYEventsDispatcher onSignificantLocation:]_block_invoke_2
+___copy_helper_block_.190
+___destroy_helper_block_.191
+___copy_helper_block_.193
+___destroy_helper_block_.194
+-[DYEventsDispatcher onIdentifyUserCalled:]
+___43-[DYEventsDispatcher onIdentifyUserCalled:]_block_invoke
+___43-[DYEventsDispatcher onIdentifyUserCalled:]_block_invoke_2
+___copy_helper_block_.197
+___destroy_helper_block_.198
+___copy_helper_block_.200
+___destroy_helper_block_.201
+-[DYEventsDispatcher onUserDataChanged:dataType:]
+___49-[DYEventsDispatcher onUserDataChanged:dataType:]_block_invoke
+___49-[DYEventsDispatcher onUserDataChanged:dataType:]_block_invoke_2
+___copy_helper_block_.204
+___destroy_helper_block_.205
+___copy_helper_block_.207
+___destroy_helper_block_.208
+-[DYEventsDispatcher onStateChanged:stateType:]
+___47-[DYEventsDispatcher onStateChanged:stateType:]_block_invoke
+___47-[DYEventsDispatcher onStateChanged:stateType:]_block_invoke_2
+___copy_helper_block_.211
+___destroy_helper_block_.212
+___copy_helper_block_.214
+___destroy_helper_block_.215
+-[DYEventsDispatcher onPushNotificationIDChanged:]
+___50-[DYEventsDispatcher onPushNotificationIDChanged:]_block_invoke
+___50-[DYEventsDispatcher onPushNotificationIDChanged:]_block_invoke_2
+___copy_helper_block_.218
+___destroy_helper_block_.219
+___copy_helper_block_.221
+___destroy_helper_block_.222
+-[DYEventsDispatcher onSecretChanged:]
+___38-[DYEventsDispatcher onSecretChanged:]_block_invoke
+___38-[DYEventsDispatcher onSecretChanged:]_block_invoke_2
+___copy_helper_block_.225
+___destroy_helper_block_.226
+___copy_helper_block_.228
+___destroy_helper_block_.229
+-[DYEventsDispatcher startSendingMsgsToServer:]
+___47-[DYEventsDispatcher startSendingMsgsToServer:]_block_invoke
+___47-[DYEventsDispatcher startSendingMsgsToServer:]_block_invoke_2
+___copy_helper_block_.232
+___destroy_helper_block_.233
+___copy_helper_block_.235
+___destroy_helper_block_.236
+-[DYEventsDispatcher onServerResponseRecieved:]
+___47-[DYEventsDispatcher onServerResponseRecieved:]_block_invoke
+___47-[DYEventsDispatcher onServerResponseRecieved:]_block_invoke_2
+___copy_helper_block_.239
+___destroy_helper_block_.240
+___copy_helper_block_.242
+___destroy_helper_block_.243
+-[DYEventsDispatcher onTrackEventCalled:prop:]
+___46-[DYEventsDispatcher onTrackEventCalled:prop:]_block_invoke
+___46-[DYEventsDispatcher onTrackEventCalled:prop:]_block_invoke_2
+___copy_helper_block_.246
+___destroy_helper_block_.247
+___copy_helper_block_.249
+___destroy_helper_block_.250
+-[DYEventsDispatcher onPageViewCalled:name:section:DYcontext:]
+___62-[DYEventsDispatcher onPageViewCalled:name:section:DYcontext:]_block_invoke
+___62-[DYEventsDispatcher onPageViewCalled:name:section:DYcontext:]_block_invoke_2
+___copy_helper_block_.253
+___destroy_helper_block_.254
+___copy_helper_block_.256
+___destroy_helper_block_.257
+-[DYEventsDispatcher onSettingsChanged:]
+___40-[DYEventsDispatcher onSettingsChanged:]_block_invoke
+___40-[DYEventsDispatcher onSettingsChanged:]_block_invoke_2
+___copy_helper_block_.260
+___destroy_helper_block_.261
+___copy_helper_block_.263
+___destroy_helper_block_.264
+-[DYEventsDispatcher onTrackUnitCalled:andAction:]
+___50-[DYEventsDispatcher onTrackUnitCalled:andAction:]_block_invoke
+___50-[DYEventsDispatcher onTrackUnitCalled:andAction:]_block_invoke_2
+___copy_helper_block_.267
+___destroy_helper_block_.268
+___copy_helper_block_.270
+___destroy_helper_block_.271
+-[DYEventsDispatcher onSiteVarsCalled:]
+___39-[DYEventsDispatcher onSiteVarsCalled:]_block_invoke
+___39-[DYEventsDispatcher onSiteVarsCalled:]_block_invoke_2
+___copy_helper_block_.274
+___destroy_helper_block_.275
+___copy_helper_block_.277
+___destroy_helper_block_.278
+-[DYEventsDispatcher onClearSiteVarsCalled:]
+___44-[DYEventsDispatcher onClearSiteVarsCalled:]_block_invoke
+___44-[DYEventsDispatcher onClearSiteVarsCalled:]_block_invoke_2
+___copy_helper_block_.281
+___destroy_helper_block_.282
+___copy_helper_block_.284
+___destroy_helper_block_.285
+-[DYEventsDispatcher onExceptionHappened:]
+___42-[DYEventsDispatcher onExceptionHappened:]_block_invoke
+___42-[DYEventsDispatcher onExceptionHappened:]_block_invoke_2
+___copy_helper_block_.288
+___destroy_helper_block_.289
+___copy_helper_block_.291
+___destroy_helper_block_.292
+-[DYEventsDispatcher onDelegateSet:]
+___36-[DYEventsDispatcher onDelegateSet:]_block_invoke
+___36-[DYEventsDispatcher onDelegateSet:]_block_invoke_2
+___copy_helper_block_.295
+___destroy_helper_block_.296
+___copy_helper_block_.298
+___destroy_helper_block_.299
+-[DYEventsDispatcher onInitStateChanged:]
+___41-[DYEventsDispatcher onInitStateChanged:]_block_invoke
+___41-[DYEventsDispatcher onInitStateChanged:]_block_invoke_2
+___copy_helper_block_.302
+___destroy_helper_block_.303
+___copy_helper_block_.305
+___destroy_helper_block_.306
+-[DYEventsDispatcher onLoadView:withSmartObject:fallbackURL:]
+___61-[DYEventsDispatcher onLoadView:withSmartObject:fallbackURL:]_block_invoke
+___61-[DYEventsDispatcher onLoadView:withSmartObject:fallbackURL:]_block_invoke_2
+___copy_helper_block_.309
+___destroy_helper_block_.310
+___copy_helper_block_.312
+___destroy_helper_block_.313
+-[DYEventsDispatcher devModeConnectionChanged:]
+___47-[DYEventsDispatcher devModeConnectionChanged:]_block_invoke
+___47-[DYEventsDispatcher devModeConnectionChanged:]_block_invoke_2
+___copy_helper_block_.316
+___destroy_helper_block_.317
+___copy_helper_block_.319
+___destroy_helper_block_.320
+-[DYEventsDispatcher devModeMsgReceived:msg:]
+___45-[DYEventsDispatcher devModeMsgReceived:msg:]_block_invoke
+___45-[DYEventsDispatcher devModeMsgReceived:msg:]_block_invoke_2
+___copy_helper_block_.323
+___destroy_helper_block_.324
+___copy_helper_block_.326
+___destroy_helper_block_.327
+-[DYEventsDispatcher onEventLoggerDetected:identifier:]
+___55-[DYEventsDispatcher onEventLoggerDetected:identifier:]_block_invoke
+___55-[DYEventsDispatcher onEventLoggerDetected:identifier:]_block_invoke_2
+___copy_helper_block_.330
+___destroy_helper_block_.331
+___copy_helper_block_.333
+___destroy_helper_block_.334
+-[DYEventsDispatcher experimentsReadyWithState:]
+___48-[DYEventsDispatcher experimentsReadyWithState:]_block_invoke
+___48-[DYEventsDispatcher experimentsReadyWithState:]_block_invoke_2
+___copy_helper_block_.337
+___destroy_helper_block_.338
+___copy_helper_block_.340
+___destroy_helper_block_.341
+-[DYEventsDispatcher addMsgsToQueue:]
+___37-[DYEventsDispatcher addMsgsToQueue:]_block_invoke
+___37-[DYEventsDispatcher addMsgsToQueue:]_block_invoke_2
+___copy_helper_block_.344
+___destroy_helper_block_.345
+___copy_helper_block_.347
+___destroy_helper_block_.348
+-[DYEventsDispatcher smartObject:returned:on:]
+___46-[DYEventsDispatcher smartObject:returned:on:]_block_invoke
+___46-[DYEventsDispatcher smartObject:returned:on:]_block_invoke_2
+___copy_helper_block_.351
+___destroy_helper_block_.352
+___copy_helper_block_.354
+___destroy_helper_block_.355
+-[DYEventsDispatcher sendRecommendationRequestCalled:]
+___54-[DYEventsDispatcher sendRecommendationRequestCalled:]_block_invoke
+___54-[DYEventsDispatcher sendRecommendationRequestCalled:]_block_invoke_2
+___copy_helper_block_.358
+___destroy_helper_block_.359
+___copy_helper_block_.361
+___destroy_helper_block_.362
+-[DYEventsDispatcher onSetRecommendationAffinitiesCalled:]
+___58-[DYEventsDispatcher onSetRecommendationAffinitiesCalled:]_block_invoke
+___58-[DYEventsDispatcher onSetRecommendationAffinitiesCalled:]_block_invoke_2
+___copy_helper_block_.365
+___destroy_helper_block_.366
+___copy_helper_block_.368
+___destroy_helper_block_.369
+-[DYEventsDispatcher rComEventCalled:widgetID:itemID:]
+___54-[DYEventsDispatcher rComEventCalled:widgetID:itemID:]_block_invoke
+___54-[DYEventsDispatcher rComEventCalled:widgetID:itemID:]_block_invoke_2
+___copy_helper_block_.372
+___destroy_helper_block_.373
+___copy_helper_block_.375
+___destroy_helper_block_.376
+-[DYEventsDispatcher reportInAppResult:]
+___40-[DYEventsDispatcher reportInAppResult:]_block_invoke
+___40-[DYEventsDispatcher reportInAppResult:]_block_invoke_2
+___copy_helper_block_.379
+___destroy_helper_block_.380
+___copy_helper_block_.382
+___destroy_helper_block_.383
+-[DYEventsDispatcher inAppNotificationTriggered:]
+___49-[DYEventsDispatcher inAppNotificationTriggered:]_block_invoke
+___49-[DYEventsDispatcher inAppNotificationTriggered:]_block_invoke_2
+___copy_helper_block_.386
+___destroy_helper_block_.387
+___copy_helper_block_.389
+___destroy_helper_block_.390
+-[DYEventsDispatcher onSetEvaluatorCalled:params:]
+___50-[DYEventsDispatcher onSetEvaluatorCalled:params:]_block_invoke
+___50-[DYEventsDispatcher onSetEvaluatorCalled:params:]_block_invoke_2
+___copy_helper_block_.393
+___destroy_helper_block_.394
+___copy_helper_block_.396
+___destroy_helper_block_.397
+-[DYEventsDispatcher reportScriptDataToServer:]
+___47-[DYEventsDispatcher reportScriptDataToServer:]_block_invoke
+___47-[DYEventsDispatcher reportScriptDataToServer:]_block_invoke_2
+___copy_helper_block_.400
+___destroy_helper_block_.401
+___copy_helper_block_.403
+___destroy_helper_block_.404
+-[DYEventsDispatcher logListener:cmdName:]
+-[DYEventsDispatcher test:]
+___27-[DYEventsDispatcher test:]_block_invoke
+___27-[DYEventsDispatcher test:]_block_invoke_2
+___copy_helper_block_.410
+___destroy_helper_block_.411
+___copy_helper_block_.413
+___destroy_helper_block_.414
+-[DYEventsDispatcher submitTaskOnSerialQueue:]
+-[DYEventsDispatcher startWorking]
+-[DYEventsDispatcher .cxx_destruct]
+l_OBJC_PROTOCOL_REFERENCE_$_DYEventsDispatcherProt
+___block_descriptor_tmp.157
+___block_descriptor_tmp.161
+___block_descriptor_tmp.166
+___block_descriptor_tmp.169
+___block_descriptor_tmp.172
+___block_descriptor_tmp.175
+___block_descriptor_tmp.178
+___block_descriptor_tmp.181
+___block_descriptor_tmp.185
+___block_descriptor_tmp.188
+___block_descriptor_tmp.192
+___block_descriptor_tmp.195
+___block_descriptor_tmp.199
+___block_descriptor_tmp.202
+___block_descriptor_tmp.206
+___block_descriptor_tmp.209
+___block_descriptor_tmp.213
+___block_descriptor_tmp.216
+___block_descriptor_tmp.220
+___block_descriptor_tmp.223
+___block_descriptor_tmp.227
+___block_descriptor_tmp.230
+___block_descriptor_tmp.234
+___block_descriptor_tmp.237
+___block_descriptor_tmp.241
+___block_descriptor_tmp.244
+___block_descriptor_tmp.248
+___block_descriptor_tmp.251
+___block_descriptor_tmp.255
+___block_descriptor_tmp.258
+___block_descriptor_tmp.262
+___block_descriptor_tmp.265
+___block_descriptor_tmp.269
+___block_descriptor_tmp.272
+___block_descriptor_tmp.276
+___block_descriptor_tmp.279
+___block_descriptor_tmp.283
+___block_descriptor_tmp.286
+___block_descriptor_tmp.290
+___block_descriptor_tmp.293
+___block_descriptor_tmp.297
+___block_descriptor_tmp.300
+___block_descriptor_tmp.304
+___block_descriptor_tmp.307
+___block_descriptor_tmp.311
+___block_descriptor_tmp.314
+___block_descriptor_tmp.318
+___block_descriptor_tmp.321
+___block_descriptor_tmp.325
+___block_descriptor_tmp.328
+___block_descriptor_tmp.332
+___block_descriptor_tmp.335
+___block_descriptor_tmp.339
+___block_descriptor_tmp.342
+___block_descriptor_tmp.346
+___block_descriptor_tmp.349
+___block_descriptor_tmp.353
+___block_descriptor_tmp.356
+___block_descriptor_tmp.360
+___block_descriptor_tmp.363
+___block_descriptor_tmp.367
+___block_descriptor_tmp.370
+___block_descriptor_tmp.374
+___block_descriptor_tmp.377
+___block_descriptor_tmp.381
+___block_descriptor_tmp.384
+___block_descriptor_tmp.388
+___block_descriptor_tmp.391
+___block_descriptor_tmp.395
+___block_descriptor_tmp.398
+___block_descriptor_tmp.402
+___block_descriptor_tmp.405
+___block_descriptor_tmp.412
+___block_descriptor_tmp.415
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Dispatchers/DYEventsDispatcher.m
+__27-[DYEventsDispatcher test:]_block_invoke_2
+__27-[DYEventsDispatcher test:]_block_invoke
+__47-[DYEventsDispatcher reportScriptDataToServer:]_block_invoke_2
+__47-[DYEventsDispatcher reportScriptDataToServer:]_block_invoke
+__50-[DYEventsDispatcher onSetEvaluatorCalled:params:]_block_invoke_2
+__50-[DYEventsDispatcher onSetEvaluatorCalled:params:]_block_invoke
+__49-[DYEventsDispatcher inAppNotificationTriggered:]_block_invoke_2
+__49-[DYEventsDispatcher inAppNotificationTriggered:]_block_invoke
+__40-[DYEventsDispatcher reportInAppResult:]_block_invoke_2
+__40-[DYEventsDispatcher reportInAppResult:]_block_invoke
+__54-[DYEventsDispatcher rComEventCalled:widgetID:itemID:]_block_invoke_2
+__54-[DYEventsDispatcher rComEventCalled:widgetID:itemID:]_block_invoke
+__58-[DYEventsDispatcher onSetRecommendationAffinitiesCalled:]_block_invoke_2
+__58-[DYEventsDispatcher onSetRecommendationAffinitiesCalled:]_block_invoke
+__54-[DYEventsDispatcher sendRecommendationRequestCalled:]_block_invoke_2
+__54-[DYEventsDispatcher sendRecommendationRequestCalled:]_block_invoke
+__46-[DYEventsDispatcher smartObject:returned:on:]_block_invoke_2
+__46-[DYEventsDispatcher smartObject:returned:on:]_block_invoke
+__37-[DYEventsDispatcher addMsgsToQueue:]_block_invoke_2
+__37-[DYEventsDispatcher addMsgsToQueue:]_block_invoke
+__48-[DYEventsDispatcher experimentsReadyWithState:]_block_invoke_2
+__48-[DYEventsDispatcher experimentsReadyWithState:]_block_invoke
+__55-[DYEventsDispatcher onEventLoggerDetected:identifier:]_block_invoke_2
+__55-[DYEventsDispatcher onEventLoggerDetected:identifier:]_block_invoke
+__45-[DYEventsDispatcher devModeMsgReceived:msg:]_block_invoke_2
+__45-[DYEventsDispatcher devModeMsgReceived:msg:]_block_invoke
+__47-[DYEventsDispatcher devModeConnectionChanged:]_block_invoke_2
+__47-[DYEventsDispatcher devModeConnectionChanged:]_block_invoke
+__61-[DYEventsDispatcher onLoadView:withSmartObject:fallbackURL:]_block_invoke_2
+__61-[DYEventsDispatcher onLoadView:withSmartObject:fallbackURL:]_block_invoke
+__41-[DYEventsDispatcher onInitStateChanged:]_block_invoke_2
+__41-[DYEventsDispatcher onInitStateChanged:]_block_invoke
+__36-[DYEventsDispatcher onDelegateSet:]_block_invoke_2
+__36-[DYEventsDispatcher onDelegateSet:]_block_invoke
+__42-[DYEventsDispatcher onExceptionHappened:]_block_invoke_2
+__42-[DYEventsDispatcher onExceptionHappened:]_block_invoke
+__44-[DYEventsDispatcher onClearSiteVarsCalled:]_block_invoke_2
+__44-[DYEventsDispatcher onClearSiteVarsCalled:]_block_invoke
+__39-[DYEventsDispatcher onSiteVarsCalled:]_block_invoke_2
+__39-[DYEventsDispatcher onSiteVarsCalled:]_block_invoke
+__50-[DYEventsDispatcher onTrackUnitCalled:andAction:]_block_invoke_2
+__50-[DYEventsDispatcher onTrackUnitCalled:andAction:]_block_invoke
+__40-[DYEventsDispatcher onSettingsChanged:]_block_invoke_2
+__40-[DYEventsDispatcher onSettingsChanged:]_block_invoke
+__62-[DYEventsDispatcher onPageViewCalled:name:section:DYcontext:]_block_invoke_2
+__62-[DYEventsDispatcher onPageViewCalled:name:section:DYcontext:]_block_invoke
+__46-[DYEventsDispatcher onTrackEventCalled:prop:]_block_invoke_2
+__46-[DYEventsDispatcher onTrackEventCalled:prop:]_block_invoke
+__47-[DYEventsDispatcher onServerResponseRecieved:]_block_invoke_2
+__47-[DYEventsDispatcher onServerResponseRecieved:]_block_invoke
+__47-[DYEventsDispatcher startSendingMsgsToServer:]_block_invoke_2
+__47-[DYEventsDispatcher startSendingMsgsToServer:]_block_invoke
+__38-[DYEventsDispatcher onSecretChanged:]_block_invoke_2
+__38-[DYEventsDispatcher onSecretChanged:]_block_invoke
+__50-[DYEventsDispatcher onPushNotificationIDChanged:]_block_invoke_2
+__50-[DYEventsDispatcher onPushNotificationIDChanged:]_block_invoke
+__47-[DYEventsDispatcher onStateChanged:stateType:]_block_invoke_2
+__47-[DYEventsDispatcher onStateChanged:stateType:]_block_invoke
+__49-[DYEventsDispatcher onUserDataChanged:dataType:]_block_invoke_2
+__49-[DYEventsDispatcher onUserDataChanged:dataType:]_block_invoke
+__43-[DYEventsDispatcher onIdentifyUserCalled:]_block_invoke_2
+__43-[DYEventsDispatcher onIdentifyUserCalled:]_block_invoke
+__44-[DYEventsDispatcher onSignificantLocation:]_block_invoke_2
+__44-[DYEventsDispatcher onSignificantLocation:]_block_invoke
+__34-[DYEventsDispatcher onAppStarted]_block_invoke_2
+__34-[DYEventsDispatcher onAppStarted]_block_invoke
+__45-[DYEventsDispatcher onEnterForegroundNotif:]_block_invoke_2
+__45-[DYEventsDispatcher onEnterForegroundNotif:]_block_invoke
+__45-[DYEventsDispatcher onEnterBackgroundNotif:]_block_invoke_2
+__45-[DYEventsDispatcher onEnterBackgroundNotif:]_block_invoke
+__39-[DYEventsDispatcher onTerminateNotif:]_block_invoke_2
+__39-[DYEventsDispatcher onTerminateNotif:]_block_invoke
+__36-[DYEventsDispatcher onNewLocation:]_block_invoke_2
+__36-[DYEventsDispatcher onNewLocation:]_block_invoke
+__26-[DYEventsDispatcher init]_block_invoke
+-[DYJsObject initWithValue:]
+-[DYJsObject toString]
+-[DYJsObject createValue:]
+-[DYJsObject valueType]
+-[DYJsObject setValueType:]
+-[DYJsObject boolValue]
+-[DYJsObject setBoolValue:]
+-[DYJsObject numberValue]
+-[DYJsObject setNumberValue:]
+-[DYJsObject stringValue]
+-[DYJsObject setStringValue:]
+-[DYJsObject dictionaryValue]
+-[DYJsObject setDictionaryValue:]
+-[DYJsObject arrayValue]
+-[DYJsObject setArrayValue:]
+-[DYJsObject .cxx_destruct]
+_OBJC_IVAR_$_DYJsObject._valueType
+_OBJC_IVAR_$_DYJsObject._arrayValue
+_OBJC_IVAR_$_DYJsObject._numberValue
+_OBJC_IVAR_$_DYJsObject._stringValue
+_OBJC_IVAR_$_DYJsObject._boolValue
+_OBJC_IVAR_$_DYJsObject._dictionaryValue
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/JSHandle/DYJsObject.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/JSHandle/DYJsObject.h
++[DYDelegateHandler getInstance]
+-[DYDelegateHandler initWithDispatcher:]
+-[DYDelegateHandler init]
+-[DYDelegateHandler onDelegateSet:]
+-[DYDelegateHandler delegate]
+-[DYDelegateHandler convertInnerInitStateToInitReply:]
+-[DYDelegateHandler onServerResponseRecieved:]
+-[DYDelegateHandler handleRecommendResult:]
+-[DYDelegateHandler smartObject:returned:on:]
+-[DYDelegateHandler shouldDYRender:]
+-[DYDelegateHandler reportInAppResult:]
+-[DYDelegateHandler onInitStateChanged:]
+-[DYDelegateHandler experimentsReadyWithState:]
+-[DYDelegateHandler .cxx_destruct]
+__instance
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYDelegateHandler.m
+-[DYJSTimers initWithQueue:]
+-[DYJSTimers removeAllTimers]
+-[DYJSTimers extend:]
+-[DYJSTimers intervalWithCallable:timeout:arguments:isInterval:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___64-[DYJSTimers intervalWithCallable:timeout:arguments:isInterval:]_block_invoke
+-[DYJSTimers setTimeout]
+___24-[DYJSTimers setTimeout]_block_invoke
+___copy_helper_block_.72
+___destroy_helper_block_.73
+-[DYJSTimers clearTimeout]
+___26-[DYJSTimers clearTimeout]_block_invoke
+___copy_helper_block_.76
+___destroy_helper_block_.77
+-[DYJSTimers setInterval]
+___25-[DYJSTimers setInterval]_block_invoke
+___copy_helper_block_.80
+___destroy_helper_block_.81
+-[DYJSTimers tolerance]
+-[DYJSTimers setTolerance:]
+-[DYJSTimers .cxx_destruct]
+_OBJC_IVAR_$_DYJSTimers._timeoutCounter
+_OBJC_IVAR_$_DYJSTimers._queue
+_OBJC_IVAR_$_DYJSTimers._dispatchSourcesMapping
+___block_descriptor_tmp.75
+___block_descriptor_tmp.82
+_OBJC_IVAR_$_DYJSTimers._tolerance
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/JSHandle/DYJSTimers.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/JSHandle/DYJSTimers.h
+__25-[DYJSTimers setInterval]_block_invoke
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+__26-[DYJSTimers clearTimeout]_block_invoke
+__24-[DYJSTimers setTimeout]_block_invoke
+__64-[DYJSTimers intervalWithCallable:timeout:arguments:isInterval:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
++[DYMessageFactory getSettingsMsgWithSectionID:]
++[DYMessageFactory getInitMsgWithSecret:]
++[DYMessageFactory getPageViewMsgUniqueID:name:section:andDYContext:]
++[DYMessageFactory getTrackUnitMsgWithData:andAction:]
++[DYMessageFactory getEventMsgWithName:andProps:]
++[DYMessageFactory getEnrichUserDataWithDYIdentify:]
++[DYMessageFactory getScriptMsgWithUrl:andName:]
++[DYMessageFactory getDataMsgWithUrl:andName:]
++[DYMessageFactory getErrorLogMsgWithException:]
++[DYMessageFactory getVarLogMsg:]
++[DYMessageFactory getRcomServerMsg:context:itemsIDOnly:andDelegate:]
++[DYMessageFactory getRcomEventMsg:]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Messages/DYMessageFactory.m
+-[rcomServerMsg initWithWidget:andContext:andWidgetData:andVersion:itemsIDOnly:andDelegate:]
+-[rcomServerMsg createPayload:context:widgetData:widgetID:]
+-[rcomServerMsg getMsgType]
+-[rcomServerMsg pageContext]
+-[rcomServerMsg setPageContext:]
+-[rcomServerMsg widgetID]
+-[rcomServerMsg setWidgetID:]
+-[rcomServerMsg widgetData]
+-[rcomServerMsg setWidgetData:]
+-[rcomServerMsg payload]
+-[rcomServerMsg setPayload:]
+-[rcomServerMsg delegate]
+-[rcomServerMsg setDelegate:]
+-[rcomServerMsg itemsIDOnly]
+-[rcomServerMsg setItemsIDOnly:]
+-[rcomServerMsg .cxx_destruct]
+_OBJC_IVAR_$_rcomServerMsg._itemsIDOnly
+_OBJC_IVAR_$_rcomServerMsg._pageContext
+_OBJC_IVAR_$_rcomServerMsg._widgetID
+_OBJC_IVAR_$_rcomServerMsg._widgetData
+_OBJC_IVAR_$_rcomServerMsg._payload
+_OBJC_IVAR_$_rcomServerMsg._delegate
+l_OBJC_PROTOCOL_$_MsgProt
+l_OBJC_LABEL_PROTOCOL_$_MsgProt
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/rcomServerMsg.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/rcomServerMsg.h
+-[NSObject(DYObjUtils) getPropertiesAsDictionary]
+-[NSObject(DYObjUtils) getPropertiesAsJsonString]
+-[NSObject(DYObjUtils) setValuesForKeysWithDictionaryDY:]
+-[NSObject(DYObjUtils) DYKeyExist:inClass:]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Utils/NSObject+DYObjUtils.m
++[DYStatisticsMgr getInstance]
+-[DYStatisticsMgr initWithDispatcher:]
+-[DYStatisticsMgr readStatisticsDataFromFile]
+-[DYStatisticsMgr init]
+-[DYStatisticsMgr onAppStarted]
+-[DYStatisticsMgr startSendingMsgsToServer:]
+-[DYStatisticsMgr onIdentifyUserCalled:]
+-[DYStatisticsMgr onSecretChanged:]
+-[DYStatisticsMgr onTrackEventCalled:prop:]
+-[DYStatisticsMgr onPageViewCalled:name:section:DYcontext:]
+-[DYStatisticsMgr onSiteVarsCalled:]
+-[DYStatisticsMgr onClearSiteVarsCalled:]
+-[DYStatisticsMgr onTrackUnitCalled:andAction:]
+-[DYStatisticsMgr addToDataRecieved:]
+-[DYStatisticsMgr addToDataSent:]
+-[DYStatisticsMgr writeStateDataToFile]
+-[DYStatisticsMgr onEnterBackgroundNotif:]
+-[DYStatisticsMgr onTerminateNotif:]
+-[DYStatisticsMgr stats]
+-[DYStatisticsMgr setStats:]
+-[DYStatisticsMgr .cxx_destruct]
+_OBJC_IVAR_$_DYStatisticsMgr._stats
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYStatisticsMgr.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYStatisticsMgr.h
++[DYThreadsHandler getInstance]
+-[DYThreadsHandler init]
+-[DYThreadsHandler initPrivate]
+-[DYThreadsHandler runAsyncTask:onQueue:]
+___41-[DYThreadsHandler runAsyncTask:onQueue:]_block_invoke
+-[DYThreadsHandler runAsyncTask:onQueue:withDelay:]
+___51-[DYThreadsHandler runAsyncTask:onQueue:withDelay:]_block_invoke
+___copy_helper_block_.13
+___destroy_helper_block_.14
+-[DYThreadsHandler runSyncTask:onQueue:]
+___40-[DYThreadsHandler runSyncTask:onQueue:]_block_invoke
+___copy_helper_block_.18
+___destroy_helper_block_.19
+-[DYThreadsHandler suspendQueue:]
+-[DYThreadsHandler resumeQueue:]
+-[DYThreadsHandler submitAsyncTask:onThreadQueue:]
+___50-[DYThreadsHandler submitAsyncTask:onThreadQueue:]_block_invoke
+___copy_helper_block_.23
+___destroy_helper_block_.24
+-[DYThreadsHandler submitSyncTask:onThreadQueue:]
+___49-[DYThreadsHandler submitSyncTask:onThreadQueue:]_block_invoke
+___copy_helper_block_.30
+___destroy_helper_block_.31
+-[DYThreadsHandler submitAsyncTask:onThreadQueue:WithDelay:]
+___60-[DYThreadsHandler submitAsyncTask:onThreadQueue:WithDelay:]_block_invoke
+___copy_helper_block_.37
+___destroy_helper_block_.38
+-[DYThreadsHandler submitOnMainThread:]
+___39-[DYThreadsHandler submitOnMainThread:]_block_invoke
+___copy_helper_block_.42
+___destroy_helper_block_.43
+-[DYThreadsHandler executeTask:andLogQueue:]
+-[DYThreadsHandler executeTask:]
+-[DYThreadsHandler queueHandler]
+-[DYThreadsHandler m_threadsArray]
+-[DYThreadsHandler .cxx_destruct]
+_s_instance
+___block_descriptor_tmp.15
+___block_descriptor_tmp.20
+___block_descriptor_tmp.25
+___block_descriptor_tmp.32
+___block_descriptor_tmp.39
+___block_descriptor_tmp.44
+_OBJC_IVAR_$_DYThreadsHandler._m_threadsArray
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYThreadsHandler.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYThreadsHandler.h
+__39-[DYThreadsHandler submitOnMainThread:]_block_invoke
+__60-[DYThreadsHandler submitAsyncTask:onThreadQueue:WithDelay:]_block_invoke
+__49-[DYThreadsHandler submitSyncTask:onThreadQueue:]_block_invoke
+__50-[DYThreadsHandler submitAsyncTask:onThreadQueue:]_block_invoke
+__40-[DYThreadsHandler runSyncTask:onQueue:]_block_invoke
+__51-[DYThreadsHandler runAsyncTask:onQueue:withDelay:]_block_invoke
+__41-[DYThreadsHandler runAsyncTask:onQueue:]_block_invoke
++[DYStateHandler getInstance]
+-[DYStateHandler initWithDispatcher:]
+-[DYStateHandler resetDYState]
+-[DYStateHandler readStateDataFromFile]
+-[DYStateHandler writeStateDataToFile]
+-[DYStateHandler onEnterBackgroundNotif:]
+-[DYStateHandler onTerminateNotif:]
+-[DYStateHandler registerForBatteryNotif]
+-[DYStateHandler updateBatteryStatus:]
+-[DYStateHandler reachabillityAllocate]
+-[DYStateHandler onAppStarted]
+-[DYStateHandler init]
+-[DYStateHandler onServerResponseRecieved:]
+-[DYStateHandler getLastModifiedForMsg:]
+-[DYStateHandler set:value:ForMsg:]
+-[DYStateHandler setlastModified:]
+-[DYStateHandler setHashedExps:]
+-[DYStateHandler registerOnCellTeachUpdates]
+___44-[DYStateHandler registerOnCellTeachUpdates]_block_invoke
+___44-[DYStateHandler registerOnCellTeachUpdates]_block_invoke_2
+___copy_helper_block_.166
+___destroy_helper_block_.167
+-[DYStateHandler reachabilityChanged:]
+___38-[DYStateHandler reachabilityChanged:]_block_invoke
+___copy_helper_block_.174
+___destroy_helper_block_.175
+-[DYStateHandler handleNetworkTypeCahnge:]
+-[DYStateHandler convertToNetworkType:]
+-[DYStateHandler convertCellTechToNetworkType:]
+-[DYStateHandler currentDYState]
+-[DYStateHandler .cxx_destruct]
+_OBJC_IVAR_$_DYStateHandler._currentDYState
+___block_descriptor_tmp.176
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYStateHandler.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYStateHandler.h
+__38-[DYStateHandler reachabilityChanged:]_block_invoke
+__44-[DYStateHandler registerOnCellTeachUpdates]_block_invoke_2
+__44-[DYStateHandler registerOnCellTeachUpdates]_block_invoke
+-[NSMutableArray(DYArrayUtils) addUniqueObject:]
+-[NSMutableArray(DYArrayUtils) addArrayUniquely:]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Utils/NSMutableArray+DYArrayUtil.m
+-[DYRecommendHandler initWithDispatcher:]
+-[DYRecommendHandler onServerResponseRecieved:]
+-[DYRecommendHandler init]
+-[DYRecommendHandler rComEventCalled:widgetID:itemID:]
+-[DYRecommendHandler sendRecommendationRequestCalled:]
+-[DYRecommendHandler handleRecommData:]
+-[DYRecommendHandler getDicForWidget:]
+-[DYRecommendHandler sendProductRimp:itemIDs:]
+-[DYRecommendHandler sendProductClick:itemID:]
+-[DYRecommendHandler buildProductType:widget:itemIDs:]
+-[DYRecommendHandler sendWidgetImp:]
+-[DYRecommendHandler buildWidgetImp:]
+-[DYRecommendHandler getPayloadForWidget:andEventsData:]
+-[DYRecommendHandler .cxx_destruct]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYRecommendHandler.m
+-[DYCountryToContinentDecoder continentForCountryCode:]
++[DYCountryToContinentDecoder allContinents]
++[NSArray(RepeatingObjects) arrayContainingObject:numberOfTimes:]
+_allContinents.result
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Utils/DYCountryToContinentDecoder.m
+-[DYConnection configureOutputStream]
+-[DYConnection configureInputStream]
+___36-[DYConnection configureInputStream]_block_invoke
+-[DYConnection startConnectionWithURL:andPort:]
+-[DYConnection init]
+-[DYConnection sendMessageAsData:]
+-[DYConnection sendMessage:]
+-[DYConnection stream:handleEvent:]
+-[DYConnection closeConnection]
+-[DYConnection setConnectionStatusAndSend:]
+-[DYConnection messageReceived:]
+-[DYConnection delegate]
+-[DYConnection setDelegate:]
+-[DYConnection .cxx_destruct]
+_OBJC_IVAR_$_DYConnection._delegate
+l_OBJC_PROTOCOL_$_NSStreamDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSStreamDelegate
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYClasses/DYConnection.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYClasses/DYConnection.h
+__36-[DYConnection configureInputStream]_block_invoke
++[DYUserData create]
+-[DYUserData description]
+-[DYUserData email]
+-[DYUserData setEmail:]
+-[DYUserData firstName]
+-[DYUserData setFirstName:]
+-[DYUserData lastName]
+-[DYUserData setLastName:]
+-[DYUserData age]
+-[DYUserData setAge:]
+-[DYUserData gender]
+-[DYUserData setGender:]
+-[DYUserData externalUserID]
+-[DYUserData setExternalUserID:]
+-[DYUserData .cxx_destruct]
+_OBJC_IVAR_$_DYUserData._email
+_OBJC_IVAR_$_DYUserData._firstName
+_OBJC_IVAR_$_DYUserData._lastName
+_OBJC_IVAR_$_DYUserData._age
+_OBJC_IVAR_$_DYUserData._gender
+_OBJC_IVAR_$_DYUserData._externalUserID
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYApi/DYUserData.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYApi/DYUserData.h
+-[DYMsgProcessor init]
+-[DYMsgProcessor getUserData]
+-[DYMsgProcessor startSendingMsgsToServer:]
+-[DYMsgProcessor sendLogVariationEvents:]
+-[DYMsgProcessor getLogVariationEventObj:]
+-[DYMsgProcessor sendRcomEvents:]
+-[DYMsgProcessor getRcomEventObj:]
+-[DYMsgProcessor getDictionaryForEvents:]
+-[DYMsgProcessor getAllDictionary:]
+-[DYMsgProcessor getUserDataDictionary]
+-[DYMsgProcessor sendEvents:]
+-[DYMsgProcessor getTrackUnit:]
+-[DYMsgProcessor getAPosForFrontPageClicked:]
+-[DYMsgProcessor getPageView:]
+-[DYMsgProcessor addAudienceFromMsg:ToDictionary:]
+-[DYMsgProcessor addExpSesFromMsg:ToDictionary:]
+-[DYMsgProcessor getCustomEvents:]
+-[DYMsgProcessor enrichUserData:]
+-[DYMsgProcessor sendRecommendMsg:]
+-[DYMsgProcessor sendRcomEvent:]
+-[DYMsgProcessor sendLogVariation:]
+-[DYMsgProcessor sendErrorLog:]
+-[DYMsgProcessor sendCustomMsg:]
+-[DYMsgProcessor getIDFromServer:]
+-[DYMsgProcessor getSettingsFromServer:]
+-[DYMsgProcessor timeOutPassed:]
+-[DYMsgProcessor msgHttpHandler]
+-[DYMsgProcessor .cxx_destruct]
+_OBJC_IVAR_$_DYMsgProcessor._msgHttpHandler
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYMsgProcessor.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYMsgProcessor.h
+-[DYInAppNotificationHandler initWithDispatcher:]
++[DYInAppNotificationHandler getInstance]
+-[DYInAppNotificationHandler init]
+-[DYInAppNotificationHandler showHTMLVariation:smartName:type:]
+___63-[DYInAppNotificationHandler showHTMLVariation:smartName:type:]_block_invoke
+-[DYInAppNotificationHandler gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
+-[DYInAppNotificationHandler gestureRecognizer:shouldReceiveTouch:]
+-[DYInAppNotificationHandler didTapOnView:]
+-[DYInAppNotificationHandler removeAllViews]
+___44-[DYInAppNotificationHandler removeAllViews]_block_invoke
+___copy_helper_block_.143
+___destroy_helper_block_.144
+-[DYInAppNotificationHandler proccessJsonVariation:smartName:type:]
+-[DYInAppNotificationHandler inAppNotificationTriggered:]
+-[DYInAppNotificationHandler onPageViewCalled:name:section:DYcontext:]
+-[DYInAppNotificationHandler dismissHelper:]
+-[DYInAppNotificationHandler _closeButtonTapped:]
+-[DYInAppNotificationHandler devModeMsgReceived:msg:]
+-[DYInAppNotificationHandler processDevModeUpdated:]
+-[DYInAppNotificationHandler .cxx_destruct]
+___block_descriptor_tmp.145
+l_OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+l_OBJC_PROTOCOL_$_UIWebViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIWebViewDelegate
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYInAppNotificationHandler.m
+__44-[DYInAppNotificationHandler removeAllViews]_block_invoke
+__63-[DYInAppNotificationHandler showHTMLVariation:smartName:type:]_block_invoke
+-[DYMsgQueue init]
+-[DYMsgQueue deQueueAndDelete:]
+-[DYMsgQueue getFromQueue]
+-[DYMsgQueue checkFirstElement]
+-[DYMsgQueue isInitFirst]
+-[DYMsgQueue addToQueue:]
+___25-[DYMsgQueue addToQueue:]_block_invoke
+-[DYMsgQueue clear]
+___19-[DYMsgQueue clear]_block_invoke
+___copy_helper_block_.86
+___destroy_helper_block_.87
+-[DYMsgQueue count]
+-[DYMsgQueue arrayQueue]
+-[DYMsgQueue setArrayQueue:]
+-[DYMsgQueue .cxx_destruct]
+_OBJC_IVAR_$_DYMsgQueue._arrayQueue
+l_OBJC_PROTOCOL_REFERENCE_$_MsgProt
+___block_descriptor_tmp.88
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYMsgQueue.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYMsgQueue.h
+__19-[DYMsgQueue clear]_block_invoke
+__25-[DYMsgQueue addToQueue:]_block_invoke
+-[DYSmartObjectHandler initWithDispatcher:]
+-[DYSmartObjectHandler init]
+-[DYSmartObjectHandler onLoadView:withSmartObject:fallbackURL:]
+___63-[DYSmartObjectHandler onLoadView:withSmartObject:fallbackURL:]_block_invoke
+-[DYSmartObjectHandler LoadView:]
+-[DYSmartObjectHandler devModeMsgReceived:msg:]
+-[DYSmartObjectHandler processAction:andDic:]
+-[DYSmartObjectHandler processDevModeUpdated:]
+-[DYSmartObjectHandler .cxx_destruct]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYSmartObjectHandler.m
+__63-[DYSmartObjectHandler onLoadView:withSmartObject:fallbackURL:]_block_invoke
+-[DYMsgQueueHandler initWithDispatcher:]
+-[DYMsgQueueHandler init]
+-[DYMsgQueueHandler onSettingsChanged:]
+-[DYMsgQueueHandler startMsgTimer]
+___34-[DYMsgQueueHandler startMsgTimer]_block_invoke
+-[DYMsgQueueHandler startSettingsTimer]
+___39-[DYMsgQueueHandler startSettingsTimer]_block_invoke
+___copy_helper_block_.63
+___destroy_helper_block_.64
+-[DYMsgQueueHandler onAppStarted]
+-[DYMsgQueueHandler getFromQueue]
+-[DYMsgQueueHandler addToQueue:checkNow:]
+-[DYMsgQueueHandler haveInternet]
+-[DYMsgQueueHandler isInitReturned]
+-[DYMsgQueueHandler sendMessages:]
+-[DYMsgQueueHandler checkIfToSendMsg:]
+___38-[DYMsgQueueHandler checkIfToSendMsg:]_block_invoke
+___copy_helper_block_.158
+___destroy_helper_block_.159
+-[DYMsgQueueHandler reportScriptDataToServer:]
+-[DYMsgQueueHandler startSendingMsgsToServer:]
+-[DYMsgQueueHandler startSendingMsgs:]
+-[DYMsgQueueHandler addMsgsToQueue:]
+-[DYMsgQueueHandler onTrackEventCalled:prop:]
+-[DYMsgQueueHandler onPageViewCalled:name:section:DYcontext:]
+-[DYMsgQueueHandler onSecretChanged:]
+-[DYMsgQueueHandler addInitMSGToQueue:checkNow:]
+-[DYMsgQueueHandler onTrackUnitCalled:andAction:]
+-[DYMsgQueueHandler onIdentifyUserCalled:]
+-[DYMsgQueueHandler onExceptionHappened:]
+-[DYMsgQueueHandler settingsTimerCalled]
+-[DYMsgQueueHandler sendSettingsMsg]
+-[DYMsgQueueHandler devURL:key:]
+-[DYMsgQueueHandler sendScriptRequests:]
+-[DYMsgQueueHandler sendDataRequests]
+-[DYMsgQueueHandler setUrlsAndSendRequest:]
+-[DYMsgQueueHandler removeDYMin:]
+-[DYMsgQueueHandler onServerResponseRecieved:]
+-[DYMsgQueueHandler onPushNotificationIDChanged:]
+-[DYMsgQueueHandler onAppExit]
+-[DYMsgQueueHandler onTerminateNotif:]
+-[DYMsgQueueHandler setMsgSent:]
+-[DYMsgQueueHandler setMsgReturned:]
+-[DYMsgQueueHandler msgReturned:]
+-[DYMsgQueueHandler clear]
+-[DYMsgQueueHandler devModeConnectionChanged:]
+-[DYMsgQueueHandler devModeDisconnected]
+-[DYMsgQueueHandler devModeMsgReceived:msg:]
+-[DYMsgQueueHandler processAction:andDic:]
+-[DYMsgQueueHandler processDevModeUpdated:]
+-[DYMsgQueueHandler getVariationName:]
+-[DYMsgQueueHandler .cxx_destruct]
+___block_descriptor_tmp.65
+___block_descriptor_tmp.160
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYMsgQueueHandler.m
+__38-[DYMsgQueueHandler checkIfToSendMsg:]_block_invoke
+__39-[DYMsgQueueHandler startSettingsTimer]_block_invoke
+__34-[DYMsgQueueHandler startMsgTimer]_block_invoke
++[DYFileUtils getHomeDir]
++[DYFileUtils initialize]
++[DYFileUtils removeAllDYFiles]
++[DYFileUtils removeDYFilesFrom:]
++[DYFileUtils checkVars]
++[DYFileUtils updateLatestLogFile]
++[DYFileUtils saveLatestLogFileName]
++[DYFileUtils getScriptsPath]
++[DYFileUtils getDataPath]
++[DYFileUtils contentOfDataDir]
++[DYFileUtils contentOfScriptsDir]
++[DYFileUtils getStaticScriptFilePath]
++[DYFileUtils getfpExpsFilePath]
++[DYFileUtils getBackupSettingsPath]
++[DYFileUtils getBackupLocalStoragePath]
++[DYFileUtils getBackupCookiePath]
++[DYFileUtils getSettingsFilePath]
++[DYFileUtils getBackupUserDataPath]
++[DYFileUtils getAffinityBackupUserDataPath]
++[DYFileUtils getBackupDYStatePath]
++[DYFileUtils getBackupDYStatisticsePath]
++[DYFileUtils switchLogFile]
++[DYFileUtils getLogFilePath]
++[DYFileUtils getLogsFileContent]
++[DYFileUtils logFileExist]
++[DYFileUtils writeDataToFile:object:]
+___38+[DYFileUtils writeDataToFile:object:]_block_invoke
++[DYFileUtils writeString:ToFile:error:]
++[DYFileUtils readStringFromFile:error:]
++[DYFileUtils readDictionaryFromFile:]
++[DYFileUtils backUpStorageUtilsToFile:object:]
+___47+[DYFileUtils backUpStorageUtilsToFile:object:]_block_invoke
+___copy_helper_block_.139
+___destroy_helper_block_.140
+_s_locker
+_s_fileMgr
+_s_cachesPath
+_s_documentsDirectory
+_s_scriptsPath
+_s_dataPath
+_s_logFileName
+___block_descriptor_tmp.141
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Utils/DYFileUtils.m
+__47+[DYFileUtils backUpStorageUtilsToFile:object:]_block_invoke
+__38+[DYFileUtils writeDataToFile:object:]_block_invoke
+-[NSString(DYStrUtil) isNotEmpty]
+-[NSString(DYStrUtil) isAllDigits]
+-[NSString(DYStrUtil) convertToNumber]
+-[NSString(DYStrUtil) isEqualIgnoringCase:]
+-[NSString(DYStrUtil) computeSecret]
+-[NSString(DYStrUtil) runRegex:]
+-[NSString(DYStrUtil) dyConvertJSONtoDictionary]
++[NSString(DYStrUtil) toString:]
+-[NSString(DYStrUtil) containsStr:]
+-[NSString(DYStrUtil) md5]
+-[NSString(DYStrUtil) sha1]
+-[NSString(DYStrUtil) sha224]
+-[NSString(DYStrUtil) sha256]
+-[NSString(DYStrUtil) sha384]
+-[NSString(DYStrUtil) sha512]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Utils/NSString+DYStrUtil.m
+NSStringCCHashFunction
++[DYSettingsHolder getInstance]
+-[DYSettingsHolder initWithDispatcher:]
+-[DYSettingsHolder loadSettings]
+-[DYSettingsHolder loadAutomationConfig]
+-[DYSettingsHolder getAutomationUrls]
+-[DYSettingsHolder useAutomationConfig]
+-[DYSettingsHolder setWriteLogsToFile:]
+-[DYSettingsHolder setForceWriteLogsToFile:]
+-[DYSettingsHolder onEnterBackgroundNotif:]
+-[DYSettingsHolder onTerminateNotif:]
+-[DYSettingsHolder dispatchSettingsChanged:]
+-[DYSettingsHolder init]
+-[DYSettingsHolder checkSettingsDictionary:]
+-[DYSettingsHolder onServerResponseRecieved:]
+-[DYSettingsHolder onSettingsChanged:]
+-[DYSettingsHolder settings]
+-[DYSettingsHolder .cxx_destruct]
+_OBJC_IVAR_$_DYSettingsHolder._settings
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Settings/DYSettingsHolder.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Settings/DYSettingsHolder.h
++[DYWebViewManager getInstance]
+-[DYWebViewManager init]
+-[DYWebViewManager getWebViewArray]
+-[DYWebViewManager configureAndaddHolderToMap:]
+-[DYWebViewManager configHolder:]
+-[DYWebViewManager configureAndaddWebViewToMap:smartID:smartDic:smartType:fallbackURL:]
+-[DYWebViewManager .cxx_destruct]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYClasses/DYWebViewManager.m
+-[enrichUserDataMsg initWithIdentifiers:]
+-[enrichUserDataMsg getMsgType]
+-[enrichUserDataMsg userIdentifiers]
+-[enrichUserDataMsg setUserIdentifiers:]
+-[enrichUserDataMsg externalUserID]
+-[enrichUserDataMsg setExternalUserID:]
+-[enrichUserDataMsg .cxx_destruct]
+_OBJC_IVAR_$_enrichUserDataMsg._userIdentifiers
+_OBJC_IVAR_$_enrichUserDataMsg._externalUserID
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/enrichUserDataMsg.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/enrichUserDataMsg.h
++[DYStorageUtils getSessionStorage]
++[DYStorageUtils getLocalStorage]
++[DYStorageUtils getCookieStorage]
++[DYStorageUtils set:value:storage:options:]
++[DYStorageUtils get:storage:options:]
++[DYStorageUtils getHelper:storage:]
++[DYStorageUtils backupPersistentData]
+___38+[DYStorageUtils backupPersistentData]_block_invoke
++[DYStorageUtils backupNow]
+___27+[DYStorageUtils backupNow]_block_invoke
++[DYStorageUtils remove:storage:options:]
++[DYStorageUtils forceCookies:]
++[DYStorageUtils getSecondLevelDomain:]
+_s_sessionStorageDic
+_s_localStorageDic
+_s_cookieStorageDic
+_s_needToConfigureTimer
+_s_writeToFileTimer
+___block_descriptor_tmp.96
+___block_literal_global
+l_OBJC_PROTOCOL_$_JSExport
+l_OBJC_LABEL_PROTOCOL_$_JSExport
+l_OBJC_PROTOCOL_$_DYStorageUtilsProt
+l_OBJC_LABEL_PROTOCOL_$_DYStorageUtilsProt
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/JSHandle/DYStorageUtils.m
+__27+[DYStorageUtils backupNow]_block_invoke
+__38+[DYStorageUtils backupPersistentData]_block_invoke
++[UIApplication(DYEventsLogger) swizzle:withSel:]
++[UIApplication(DYEventsLogger) startSwizzeling]
++[UIApplication(DYEventsLogger) disableSwizzeling]
+-[UIApplication(DYEventsLogger) DY_sendAction:to:from:forEvent:]
+___64-[UIApplication(DYEventsLogger) DY_sendAction:to:from:forEvent:]_block_invoke
++[UIApplication(DYEventsLogger) setEventsDispatcher:]
+__dispatcher
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/EventsLoggers/UIApplication+DYEventsLogger.m
+__64-[UIApplication(DYEventsLogger) DY_sendAction:to:from:forEvent:]_block_invoke
++[DYJSLogger log:]
+l_OBJC_PROTOCOL_$_DYJSLoggerProt
+l_OBJC_LABEL_PROTOCOL_$_DYJSLoggerProt
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/JSHandle/DYJSLogger.m
+-[DYState init]
+-[DYState initEmpty]
+-[DYState initWithDictionary:]
+-[DYState networkType]
+-[DYState setNetworkType:]
+-[DYState batteryPercent]
+-[DYState setBatteryPercent:]
+-[DYState initState]
+-[DYState setInitState:]
+-[DYState netStatus]
+-[DYState setNetStatus:]
+-[DYState JSFilesLastModified]
+-[DYState setJSFilesLastModified:]
+-[DYState scriptsUrls]
+-[DYState setScriptsUrls:]
+-[DYState dataUrls]
+-[DYState setDataUrls:]
+-[DYState .cxx_destruct]
+_OBJC_IVAR_$_DYState._initState
+_OBJC_IVAR_$_DYState._netStatus
+_OBJC_IVAR_$_DYState._scriptsUrls
+_OBJC_IVAR_$_DYState._dataUrls
+_OBJC_IVAR_$_DYState._networkType
+_OBJC_IVAR_$_DYState._batteryPercent
+_OBJC_IVAR_$_DYState._JSFilesLastModified
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYClasses/DYState.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYClasses/DYState.h
++[DYJsHandler getInstance]
+-[DYJsHandler initWithDispatcher:]
+-[DYJsHandler updateScriptsNumFromState]
+-[DYJsHandler updateScriptsNumFromInit:]
+-[DYJsHandler init]
+-[DYJsHandler processUserConditionsFromInit:]
+-[DYJsHandler onNewLocation:]
+-[DYJsHandler onStateChanged:stateType:]
+-[DYJsHandler updateUserConditions]
+-[DYJsHandler mergeAndSetUserConditions:]
+-[DYJsHandler onSetEvaluatorCalled:params:]
+-[DYJsHandler setUserConditionsState]
+-[DYJsHandler processAudiencesAndRules:]
+-[DYJsHandler setUserAudiences:andRules:andSharedAudience:andChc:]
+-[DYJsHandler updateJSFilesInFolders]
+-[DYJsHandler onServerResponseRecieved:]
+-[DYJsHandler okToProcess]
+-[DYJsHandler setDataFromInit:]
+-[DYJsHandler processScripts:]
+-[DYJsHandler setupBeforeEval]
+-[DYJsHandler setupAfterEval]
+___29-[DYJsHandler setupAfterEval]_block_invoke
+-[DYJsHandler setupServerExperiments]
+-[DYJsHandler onEnterBackgroundNotif:]
+-[DYJsHandler onPageViewCalled:name:section:DYcontext:]
+-[DYJsHandler onTrackEventCalled:prop:]
+-[DYJsHandler isInitialized]
+-[DYJsHandler getExpState]
+-[DYJsHandler isLegalInput:]
+-[DYJsHandler getEmptyFunc]
+___27-[DYJsHandler getEmptyFunc]_block_invoke
+-[DYJsHandler getExceptionHandler]
+___34-[DYJsHandler getExceptionHandler]_block_invoke
+___copy_helper_block_.313
+___destroy_helper_block_.314
+-[DYJsHandler getExperiments]
+-[DYJsHandler chooseVariation:]
+-[DYJsHandler getVariationData:]
+-[DYJsHandler forceChooseVariation:]
+-[DYJsHandler getServerVariations:]
+-[DYJsHandler setVariation:variationID:]
+-[DYJsHandler expNameToId:]
+-[DYJsHandler varNameToId:var:]
+-[DYJsHandler devModeMsgReceived:msg:]
+-[DYJsHandler processAction:andDic:]
+-[DYJsHandler processDevModeUpdated:]
+-[DYJsHandler devModeConnectionChanged:]
+-[DYJsHandler resetSmartObjectsPreviewsMap]
+-[DYJsHandler getSmartObject:]
+-[DYJsHandler getRcommWidgetParam:]
+-[DYJsHandler reportSmartClicked:]
+-[DYJsHandler reportSmartViewed:]
+-[DYJsHandler reportSmart:]
+-[DYJsHandler reportSmartToServer:jsResult:]
+-[DYJsHandler getExpSes]
+-[DYJsHandler sendRecommendationRequestCalled:]
+-[DYJsHandler setPageContext:]
+-[DYJsHandler onTrackUnitCalled:andAction:]
+-[DYJsHandler getScriptVersion]
+-[DYJsHandler callpageLoad:]
+-[DYJsHandler callReportItem:data:]
+-[DYJsHandler callFireEvent:data:]
+-[DYJsHandler getAudiences]
+-[DYJsHandler setExps:]
+-[DYJsHandler getFpExpsFileContentForFrontPage:]
+-[DYJsHandler getExpsDataForFrontPage:]
+-[DYJsHandler getExpIdForFP:unit:position:]
+-[DYJsHandler getVariationIdForUnitName:andArticleID:]
+-[DYJsHandler getVariationBackupForFP:]
+-[DYJsHandler getAllVariationsForFP:]
+-[DYJsHandler updateVariationBackup:]
+-[DYJsHandler chooseVariationFor:inFrontPage:andUnit:]
+-[DYJsHandler getSmartVariable:defaultValue:]
+-[DYJsHandler reportSmartVariable:]
+-[DYJsHandler getFrontPageVariationsImpressions:]
+-[DYJsHandler .cxx_destruct]
+_loadSequencesOnceToken
+___block_descriptor_tmp.310
+___block_descriptor_tmp.316
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/JSHandle/DYJsHandler.m
+__34-[DYJsHandler getExceptionHandler]_block_invoke
+__27-[DYJsHandler getEmptyFunc]_block_invoke
+__29-[DYJsHandler setupAfterEval]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/include/dispatch/once.h
++[DYUserDataHandler getInstance]
+-[DYUserDataHandler initWithDispatcher:]
+-[DYUserDataHandler init]
+-[DYUserDataHandler writeUserDataToFile]
+-[DYUserDataHandler readUserDataFromFile]
+-[DYUserDataHandler onEnterBackgroundNotif:]
+-[DYUserDataHandler onTerminateNotif:]
+-[DYUserDataHandler isSecretNotEmpty]
+-[DYUserDataHandler onSecretChanged:]
+-[DYUserDataHandler onIdentifyUserCalled:]
+-[DYUserDataHandler onSiteVarsCalled:]
+-[DYUserDataHandler onClearSiteVarsCalled:]
+-[DYUserDataHandler onPageViewCalled:name:section:DYcontext:]
+-[DYUserDataHandler onPushNotificationIDChanged:]
+-[DYUserDataHandler onNewLocation:]
+-[DYUserDataHandler onUserDataChanged:dataType:]
+-[DYUserDataHandler onSetRecommendationAffinitiesCalled:]
+-[DYUserDataHandler updateUserDataFromInit:]
+-[DYUserDataHandler onAppStarted]
+-[DYUserDataHandler onServerResponseRecieved:]
+-[DYUserDataHandler userData]
+-[DYUserDataHandler .cxx_destruct]
+_OBJC_IVAR_$_DYUserDataHandler._userData
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYUserDataHandler.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYUserDataHandler.h
+-[rcomEventMsg initWithPayload:]
+-[rcomEventMsg getMsgType]
+-[rcomEventMsg payload]
+-[rcomEventMsg setPayload:]
+-[rcomEventMsg .cxx_destruct]
+_OBJC_IVAR_$_rcomEventMsg._payload
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/rcomEventMsg.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/rcomEventMsg.h
+-[DYSettings init]
+-[DYSettings setValuesForKeysWithDictionaryDY:]
+-[DYSettings setWriteLogsToFile:]
+-[DYSettings forceWriteLogsToFile]
+-[DYSettings writeLogsToFile]
+-[DYSettings initWithDictionary:]
+-[DYSettings description]
+-[DYSettings restHost]
+-[DYSettings setRestHost:]
+-[DYSettings rcomHost]
+-[DYSettings setRcomHost:]
+-[DYSettings maxMsgToFlush]
+-[DYSettings setMaxMsgToFlush:]
+-[DYSettings maxQueueSize]
+-[DYSettings setMaxQueueSize:]
+-[DYSettings refreshSettingsIntervalInSeconds]
+-[DYSettings setRefreshSettingsIntervalInSeconds:]
+-[DYSettings backendScheme]
+-[DYSettings setBackendScheme:]
+-[DYSettings messageDelayTolerance]
+-[DYSettings setMessageDelayTolerance:]
+-[DYSettings logLevel]
+-[DYSettings setLogLevel:]
+-[DYSettings useLocation]
+-[DYSettings setUseLocation:]
+-[DYSettings sendMsgsInterval]
+-[DYSettings setSendMsgsInterval:]
+-[DYSettings timestamp]
+-[DYSettings setTimestamp:]
+-[DYSettings DYInit]
+-[DYSettings setDYInit:]
+-[DYSettings logError]
+-[DYSettings setLogError:]
+-[DYSettings sendEvents]
+-[DYSettings setSendEvents:]
+-[DYSettings logVariation]
+-[DYSettings setLogVariation:]
+-[DYSettings enrichUserData]
+-[DYSettings setEnrichUserData:]
+-[DYSettings settings]
+-[DYSettings setSettings:]
+-[DYSettings dynamicVariable]
+-[DYSettings setDynamicVariable:]
+-[DYSettings rcomEvent]
+-[DYSettings setRcomEvent:]
+-[DYSettings getRcomData]
+-[DYSettings setGetRcomData:]
+-[DYSettings .cxx_destruct]
+_OBJC_IVAR_$_DYSettings._DYInit
+_OBJC_IVAR_$_DYSettings._logError
+_OBJC_IVAR_$_DYSettings._sendEvents
+_OBJC_IVAR_$_DYSettings._logVariation
+_OBJC_IVAR_$_DYSettings._enrichUserData
+_OBJC_IVAR_$_DYSettings._settings
+_OBJC_IVAR_$_DYSettings._dynamicVariable
+_OBJC_IVAR_$_DYSettings._rcomEvent
+_OBJC_IVAR_$_DYSettings._getRcomData
+_OBJC_IVAR_$_DYSettings._writeLogsToFile
+_OBJC_IVAR_$_DYSettings._timestamp
+_OBJC_IVAR_$_DYSettings._restHost
+_OBJC_IVAR_$_DYSettings._rcomHost
+_OBJC_IVAR_$_DYSettings._maxMsgToFlush
+_OBJC_IVAR_$_DYSettings._maxQueueSize
+_OBJC_IVAR_$_DYSettings._refreshSettingsIntervalInSeconds
+_OBJC_IVAR_$_DYSettings._backendScheme
+_OBJC_IVAR_$_DYSettings._messageDelayTolerance
+_OBJC_IVAR_$_DYSettings._logLevel
+_OBJC_IVAR_$_DYSettings._useLocation
+_OBJC_IVAR_$_DYSettings._sendMsgsInterval
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Settings/DYSettings.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Settings/DYSettings.h
+-[customEventMsg initWithName:andProps:]
+-[customEventMsg getMsgType]
+-[customEventMsg eventName]
+-[customEventMsg setEventName:]
+-[customEventMsg eventProps]
+-[customEventMsg setEventProps:]
+-[customEventMsg pageViewSection]
+-[customEventMsg setPageViewSection:]
+-[customEventMsg .cxx_destruct]
+_OBJC_IVAR_$_customEventMsg._eventName
+_OBJC_IVAR_$_customEventMsg._eventProps
+_OBJC_IVAR_$_customEventMsg._pageViewSection
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/customEventMsg.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/customEventMsg.h
+-[DYViewHolder initWithSmartName:type:view:andDic:]
+-[DYViewHolder processWebView]
+-[DYViewHolder configureViewGestureCatcher]
+-[DYViewHolder didTapOnView:]
+___29-[DYViewHolder didTapOnView:]_block_invoke
+-[DYViewHolder getSmartObjectHTML]
+-[DYViewHolder getImageTemplateURL]
+-[DYViewHolder getImageLinkURL]
+-[DYViewHolder getDataToLoad]
+-[DYViewHolder isWebView]
+-[DYViewHolder isImageView]
+-[DYViewHolder refreshView]
+___27-[DYViewHolder refreshView]_block_invoke
+___copy_helper_block_.116
+___destroy_helper_block_.117
+-[DYViewHolder loadHTML:]
+-[DYViewHolder loadImage:]
+___26-[DYViewHolder loadImage:]_block_invoke
+___26-[DYViewHolder loadImage:]_block_invoke_2
+___copy_helper_block_.138
+___destroy_helper_block_.139
+___copy_helper_block_.141
+___destroy_helper_block_.142
+-[DYViewHolder gestureRecognizerShouldBegin:]
+-[DYViewHolder gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
+-[DYViewHolder gestureRecognizer:shouldReceiveTouch:]
+-[DYViewHolder webView:shouldStartLoadWithRequest:navigationType:]
+-[DYViewHolder smartName]
+-[DYViewHolder setSmartName:]
+-[DYViewHolder smartDic]
+-[DYViewHolder setSmartDic:]
+-[DYViewHolder fallbackURL]
+-[DYViewHolder setFallbackURL:]
+-[DYViewHolder view]
+-[DYViewHolder setView:]
+-[DYViewHolder objectType]
+-[DYViewHolder setObjectType:]
+-[DYViewHolder smartObjectType]
+-[DYViewHolder setSmartObjectType:]
+-[DYViewHolder .cxx_destruct]
+_OBJC_IVAR_$_DYViewHolder._smartDic
+_OBJC_IVAR_$_DYViewHolder._smartObjectType
+_OBJC_IVAR_$_DYViewHolder._objectType
+_OBJC_IVAR_$_DYViewHolder._view
+_OBJC_IVAR_$_DYViewHolder._smartName
+_OBJC_IVAR_$_DYViewHolder._fallbackURL
+___block_descriptor_tmp.118
+___block_descriptor_tmp.140
+___block_descriptor_tmp.143
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYClasses/DYViewHolder.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYClasses/DYViewHolder.h
+__26-[DYViewHolder loadImage:]_block_invoke_2
+__26-[DYViewHolder loadImage:]_block_invoke
+__27-[DYViewHolder refreshView]_block_invoke
+__29-[DYViewHolder didTapOnView:]_block_invoke
++[DYSettingsFile loadFromFile]
++[DYSettingsFile loadFromFile:]
++[DYSettingsFile writeSettingsToFile:]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Settings/DYSettingsFile.m
++[DYReachability reachabilityWithHostName:]
++[DYReachability reachabilityWithHostname:]
++[DYReachability reachabilityWithAddress:]
++[DYReachability reachabilityForInternetConnection]
++[DYReachability reachabilityForLocalWiFi]
+-[DYReachability initWithReachabilityRef:]
+-[DYReachability dealloc]
+-[DYReachability startNotifier]
+_TMReachabilityCallback
+-[DYReachability stopNotifier]
+-[DYReachability isReachableWithFlags:]
+-[DYReachability isReachable]
+-[DYReachability isReachableViaWWAN]
+-[DYReachability isReachableViaWiFi]
+-[DYReachability isConnectionRequired]
+-[DYReachability connectionRequired]
+-[DYReachability isConnectionOnDemand]
+-[DYReachability isInterventionRequired]
+-[DYReachability currentReachabilityStatus]
+-[DYReachability reachabilityFlags]
+-[DYReachability currentReachabilityString]
+-[DYReachability currentReachabilityFlags]
+-[DYReachability reachabilityChanged:]
+-[DYReachability description]
+-[DYReachability reachableBlock]
+-[DYReachability setReachableBlock:]
+-[DYReachability unreachableBlock]
+-[DYReachability setUnreachableBlock:]
+-[DYReachability reachableOnWWAN]
+-[DYReachability setReachableOnWWAN:]
+-[DYReachability reachabilityRef]
+-[DYReachability setReachabilityRef:]
+-[DYReachability reachabilitySerialQueue]
+-[DYReachability setReachabilitySerialQueue:]
+-[DYReachability reachabilityObject]
+-[DYReachability setReachabilityObject:]
+-[DYReachability .cxx_destruct]
+_OBJC_IVAR_$_DYReachability._reachableBlock
+_OBJC_IVAR_$_DYReachability._unreachableBlock
+_OBJC_IVAR_$_DYReachability._reachableOnWWAN
+_OBJC_IVAR_$_DYReachability._reachabilityRef
+_OBJC_IVAR_$_DYReachability._reachabilitySerialQueue
+_OBJC_IVAR_$_DYReachability._reachabilityObject
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Utils/DYReachability.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Utils/DYReachability.h
+reachabilityFlags
+TMReachabilityCallback
++[DYApi load]
+-[DYApi init]
+-[DYApi isSecretSet]
+-[DYApi isInitOK]
++[DYApi getInstance]
+-[DYApi setSecretKey:]
+-[DYApi setPushNotificationID:]
+-[DYApi setDelegate:]
+-[DYApi trackEvent:prop:]
+-[DYApi pageView:name:section:context:]
+-[DYApi setSiteVars:]
+-[DYApi clearSiteVars:]
+-[DYApi trackUnitsImpression:]
+-[DYApi trackUnitsRealImpression:]
+-[DYApi trackUnitClicked:]
+-[DYApi trackFrontpage:articleClicked:inSection:position:]
+-[DYApi trackUnit:andAction:]
+-[DYApi getUserAudiences]
+-[DYApi identifyUser:]
+-[DYApi chooseVariation:]
+-[DYApi forceChooseVariation:]
+-[DYApi forceChooseVariationAndGetData:]
+-[DYApi chooseVariationAndGetData:]
+-[DYApi getAllExperimentsDataForFrontpage:]
+-[DYApi getExperimentDataFor:inFrontpage:andSection:]
+-[DYApi getVariationData:]
+-[DYApi getVariationProperties:]
+-[DYApi getServerVariations:]
+-[DYApi setVariation:variationID:]
+-[DYApi expNameToId:]
+-[DYApi varNameToId:var:]
+-[DYApi getSmartVariable:defaultValue:]
+-[DYApi setRecommendationAffinities:]
+-[DYApi sendRecommendationRequest:withContext:itemsIDsOnly:andDelegate:]
+-[DYApi TrackRecomItemsRealImpression:andItemID:]
+-[DYApi TrackRecomItemClick:andItemID:]
+-[DYApi loadSmartObject:withSmartObject:fallbackURL:]
+-[DYApi loadImageView:withSmartObject:fallbackURL:]
+-[DYApi loadWebView:withSmartObject:fallbackURL:]
+-[DYApi setEvaluator:forParams:]
+-[DYApi setAutoPageViewsTracking:]
+-[DYApi enableDeveloperLogs:]
+-[DYApi dispatcher]
+-[DYApi engine]
+-[DYApi setEngine:]
+-[DYApi .cxx_destruct]
+_OBJC_IVAR_$_DYApi._secretSet
+_OBJC_IVAR_$_DYApi._dispatcher
+_OBJC_IVAR_$_DYApi._engine
+l_OBJC_PROTOCOL_$_DYDelegateProtocol
+l_OBJC_LABEL_PROTOCOL_$_DYDelegateProtocol
+l_OBJC_PROTOCOL_REFERENCE_$_DYDelegateProtocol
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYApi/DYApi.m
+-[trackUnitMsg initWithData:andAction:]
+-[trackUnitMsg getMsgType]
+-[trackUnitMsg action]
+-[trackUnitMsg setAction:]
+-[trackUnitMsg pageViewSection]
+-[trackUnitMsg setPageViewSection:]
+-[trackUnitMsg data]
+-[trackUnitMsg setData:]
+-[trackUnitMsg .cxx_destruct]
+_OBJC_IVAR_$_trackUnitMsg._action
+_OBJC_IVAR_$_trackUnitMsg._data
+_OBJC_IVAR_$_trackUnitMsg._pageViewSection
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/trackUnitMsg.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/trackUnitMsg.h
+-[DYHttpOperation initWithMessage:andDic:]
+-[DYHttpOperation main]
+-[DYHttpOperation message]
+-[DYHttpOperation setMessage:]
+-[DYHttpOperation msgDic]
+-[DYHttpOperation setMsgDic:]
+-[DYHttpOperation .cxx_destruct]
+_OBJC_IVAR_$_DYHttpOperation._message
+_OBJC_IVAR_$_DYHttpOperation._msgDic
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYClasses/DYHttpOperation.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYClasses/DYHttpOperation.h
+-[DYStats init]
+-[DYStats dataSentInbytes]
+-[DYStats dataRecievedInbytes]
+-[DYStats setDataSentInbytes:]
+-[DYStats setDataRecievedInbytes:]
+-[DYStats initWithDictionary:]
+-[DYStats addToMsgsSentToServer:]
+-[DYStats appStartedCounter]
+-[DYStats setAppStartedCounter:]
+-[DYStats msgsSentToServer]
+-[DYStats setMsgsSentToServer:]
+-[DYStats apiCalls]
+-[DYStats setApiCalls:]
+-[DYStats pageViews]
+-[DYStats setPageViews:]
+-[DYStats dataRecievedInKB]
+-[DYStats setDataRecievedInKB:]
+-[DYStats dataSentInKB]
+-[DYStats setDataSentInKB:]
+_OBJC_IVAR_$_DYStats._dataSentInKB
+_OBJC_IVAR_$_DYStats._dataRecievedInKB
+_OBJC_IVAR_$_DYStats._msgsSentToServer
+_OBJC_IVAR_$_DYStats._appStartedCounter
+_OBJC_IVAR_$_DYStats._apiCalls
+_OBJC_IVAR_$_DYStats._pageViews
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYClasses/DYStats.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYClasses/DYStats.h
+-[DYBaseHandler init]
+-[DYBaseHandler getName]
+-[DYBaseHandler runOnQueue:]
+-[DYBaseHandler runOnQueue:withDelay:]
+-[DYBaseHandler .cxx_destruct]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYBaseHandler.m
+-[settingsMsg initWithSectionID:]
+-[settingsMsg getMsgType]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/settingsMsg.m
+-[UIView(FindUIViewController) firstAvailableUIViewController]
+-[UIView(FindUIViewController) traverseResponderChainForUIViewController]
++[UIView(FindUIViewController) getIdentifierOfSender:Selector:]
++[UIView(FindUIViewController) getIdentifierOfSender:]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/EventsLoggers/UIView+FindUIViewController.m
++[DYMsgEnumToString msgTypeToString:]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Enums/DYMsgEnumToString.m
+-[NSDictionary(DYDictionaryUtils) dyConvertDictionaryToJSONStr]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Utils/NSDictionary+DYDictionaryUtils.m
+-[customMsg initWithFullURL:andPayload:UrlParam:]
+-[customMsg getMsgType]
+-[customMsg urlEncode:]
+-[customMsg urlEncodedString:]
+-[customMsg payload]
+-[customMsg setPayload:]
+-[customMsg .cxx_destruct]
+_OBJC_IVAR_$_customMsg._payload
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/customMsg.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/customMsg.h
+-[eventsMsg init]
+-[eventsMsg init:]
+-[eventsMsg getMsgType]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/eventsMsg.m
+-[DYMsgHttpHandler init]
+-[DYMsgHttpHandler startprocessing:andDic:]
+-[DYMsgHttpHandler mainQueue]
+-[DYMsgHttpHandler setMainQueue:]
+-[DYMsgHttpHandler .cxx_destruct]
+_OBJC_IVAR_$_DYMsgHttpHandler._mainQueue
+l_OBJC_PROTOCOL_$_NSURLConnectionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLConnectionDelegate
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYMsgHttpHandler.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYMsgHttpHandler.h
+-[InitMsg initWithSecret:]
+-[InitMsg getMsgType]
+-[InitMsg sectionID]
+-[InitMsg setSectionID:]
+-[InitMsg secret]
+-[InitMsg setSecret:]
+-[InitMsg .cxx_destruct]
+_OBJC_IVAR_$_InitMsg._secret
+_OBJC_IVAR_$_InitMsg._sectionID
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/InitMsg.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/InitMsg.h
+-[DYPageContext getAsDictinary]
+-[DYPageContext convertStringToDYContextType:]
+-[DYPageContext convertDYContextTypeToString:]
+-[DYPageContext language]
+-[DYPageContext setLanguage:]
+-[DYPageContext data]
+-[DYPageContext setData:]
+-[DYPageContext type]
+-[DYPageContext setType:]
+-[DYPageContext .cxx_destruct]
+_OBJC_IVAR_$_DYPageContext._language
+_OBJC_IVAR_$_DYPageContext._data
+_OBJC_IVAR_$_DYPageContext._type
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYApi/DYPageContext.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYApi/DYPageContext.h
++[DYUserDefaults setObject:forKey:]
++[DYUserDefaults objectForKey:]
++[DYUserDefaults stringForKey:]
++[DYUserDefaults dictionaryRepresentation]
++[DYUserDefaults removeObjectForKey:]
++[DYUserDefaults setInteger:forKey:]
++[DYUserDefaults setFloat:forKey:]
++[DYUserDefaults setDouble:forKey:]
++[DYUserDefaults setBool:forKey:]
++[DYUserDefaults integerForKey:]
++[DYUserDefaults floatForKey:]
++[DYUserDefaults doubleForKey:]
++[DYUserDefaults boolForKey:]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYClasses/DYUserDefaults.m
+-[CLPlacemark(DYContinents) continent]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Utils/CLPlacemark+DYContinents.m
+-[DYLocationHandler initWithDispatcher:]
+-[DYLocationHandler init]
+-[DYLocationHandler isPermissionGranted]
+-[DYLocationHandler configureMonitoringLocation]
+-[DYLocationHandler onSettingsChanged:]
+-[DYLocationHandler decodeAddress:]
+___35-[DYLocationHandler decodeAddress:]_block_invoke
+-[DYLocationHandler startMonitoringLocation]
+___44-[DYLocationHandler startMonitoringLocation]_block_invoke
+___copy_helper_block_.79
+___destroy_helper_block_.80
+-[DYLocationHandler stopMonitoringLocation]
+-[DYLocationHandler onEnterForegroundNotif:]
+-[DYLocationHandler onEnterBackgroundNotif:]
+-[DYLocationHandler locationManager:didUpdateLocations:]
+-[DYLocationHandler locationManager:didFailWithError:]
+-[DYLocationHandler locationManager:didChangeAuthorizationStatus:]
+-[DYLocationHandler .cxx_destruct]
+l_OBJC_PROTOCOL_$_CLLocationManagerDelegate
+l_OBJC_LABEL_PROTOCOL_$_CLLocationManagerDelegate
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYLocationHandler.m
+__44-[DYLocationHandler startMonitoringLocation]_block_invoke
+__35-[DYLocationHandler decodeAddress:]_block_invoke
++[UIViewController(DYEventsLogger) swizzle:withSel:]
++[UIViewController(DYEventsLogger) disableSwizzeling]
++[UIViewController(DYEventsLogger) startSwizzeling]
+-[UIViewController(DYEventsLogger) DY_viewDidLoad:]
+___51-[UIViewController(DYEventsLogger) DY_viewDidLoad:]_block_invoke
++[UIViewController(DYEventsLogger) disableSwizzelingViewDidAppear]
++[UIViewController(DYEventsLogger) startSwizzelingViewDidAppear]
+-[UIViewController(DYEventsLogger) DY_viewDidAppear:]
+___53-[UIViewController(DYEventsLogger) DY_viewDidAppear:]_block_invoke
+___copy_helper_block_.52
+___destroy_helper_block_.53
++[UIViewController(DYEventsLogger) setEventsDispatcher:]
+___block_descriptor_tmp.54
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/EventsLoggers/UIViewController+DYEventsLogger.m
+__53-[UIViewController(DYEventsLogger) DY_viewDidAppear:]_block_invoke
+__51-[UIViewController(DYEventsLogger) DY_viewDidLoad:]_block_invoke
++[DYUIUtils getInstance]
+-[DYUIUtils init]
+-[DYUIUtils updateSizes]
+-[DYUIUtils showSubView:withParentView:]
+-[DYUIUtils showConnectedView:]
+___31-[DYUIUtils showConnectedView:]_block_invoke
+-[DYUIUtils showToastWithPageID:]
+-[DYUIUtils showToastWithVariation:]
+-[DYUIUtils showToast:]
+___23-[DYUIUtils showToast:]_block_invoke
+___23-[DYUIUtils showToast:]_block_invoke_2
+___copy_helper_block_.55
+___destroy_helper_block_.56
+___23-[DYUIUtils showToast:]_block_invoke.60
+___23-[DYUIUtils showToast:]_block_invoke_2.61
+___copy_helper_block_.62
+___destroy_helper_block_.63
+___copy_helper_block_.65
+___destroy_helper_block_.66
+___copy_helper_block_.68
+___destroy_helper_block_.69
+-[DYUIUtils showAndroidLikeToast:]
+___34-[DYUIUtils showAndroidLikeToast:]_block_invoke
+___34-[DYUIUtils showAndroidLikeToast:]_block_invoke_2
+___34-[DYUIUtils showAndroidLikeToast:]_block_invoke_3
+___copy_helper_block_.83
+___destroy_helper_block_.84
+-[DYUIUtils addToastView:withText:]
+-[DYUIUtils addMuteButton:]
+-[DYUIUtils setDevModeState:]
+-[DYUIUtils getTopController]
+-[DYUIUtils updatePageId:]
+___26-[DYUIUtils updatePageId:]_block_invoke
+-[DYUIUtils addPageIdView:]
+-[DYUIUtils updatePreviewVariation:]
+___36-[DYUIUtils updatePreviewVariation:]_block_invoke
+-[DYUIUtils addVariationView:]
+-[DYUIUtils initPreviewData]
+-[DYUIUtils setViewControl:]
+-[DYUIUtils showPreviewNotif:]
+___30-[DYUIUtils showPreviewNotif:]_block_invoke
+-[DYUIUtils createPreviewView]
+-[DYUIUtils addContentButtons]
+-[DYUIUtils getPageIdPreviewText:]
+-[DYUIUtils getVariationText:]
+-[DYUIUtils handleButtonTap:]
+___29-[DYUIUtils handleButtonTap:]_block_invoke
+___copy_helper_block_.231
+___destroy_helper_block_.232
+___29-[DYUIUtils handleButtonTap:]_block_invoke.234
+-[DYUIUtils handleEmailTap]
+-[DYUIUtils mailComposeController:didFinishWithResult:error:]
+-[DYUIUtils handleRemoveTap]
+___28-[DYUIUtils handleRemoveTap]_block_invoke
+___copy_helper_block_.272
+___destroy_helper_block_.273
+-[DYUIUtils handleCloseTap]
+___27-[DYUIUtils handleCloseTap]_block_invoke
+-[DYUIUtils removePreviewNotif]
+-[DYUIUtils removePreviewNotifInMainThread]
+___43-[DYUIUtils removePreviewNotifInMainThread]_block_invoke
+___copy_helper_block_.280
+___destroy_helper_block_.281
+-[DYUIUtils hideConnectedView]
+___30-[DYUIUtils hideConnectedView]_block_invoke
+___copy_helper_block_.283
+___destroy_helper_block_.284
+-[DYUIUtils setMuteFalse]
+-[DYUIUtils showConnectedViewForSec:]
+___37-[DYUIUtils showConnectedViewForSec:]_block_invoke
+-[DYUIUtils gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
+-[DYUIUtils .cxx_destruct]
+_sInstance
+___block_descriptor_tmp.57
+___block_descriptor_tmp.64
+___block_descriptor_tmp.67
+___block_descriptor_tmp.70
+___block_descriptor_tmp.85
+___block_descriptor_tmp.233
+___block_descriptor_tmp.274
+___block_descriptor_tmp.282
+___block_descriptor_tmp.285
+l_OBJC_PROTOCOL_$_MFMailComposeViewControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_MFMailComposeViewControllerDelegate
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Utils/DYUIUtils.m
+__37-[DYUIUtils showConnectedViewForSec:]_block_invoke
+__30-[DYUIUtils hideConnectedView]_block_invoke
+__43-[DYUIUtils removePreviewNotifInMainThread]_block_invoke
+__27-[DYUIUtils handleCloseTap]_block_invoke
+__28-[DYUIUtils handleRemoveTap]_block_invoke
+__29-[DYUIUtils handleButtonTap:]_block_invoke.234
+__29-[DYUIUtils handleButtonTap:]_block_invoke
+__30-[DYUIUtils showPreviewNotif:]_block_invoke
+__36-[DYUIUtils updatePreviewVariation:]_block_invoke
+__26-[DYUIUtils updatePageId:]_block_invoke
+__34-[DYUIUtils showAndroidLikeToast:]_block_invoke_3
+__34-[DYUIUtils showAndroidLikeToast:]_block_invoke_2
+__34-[DYUIUtils showAndroidLikeToast:]_block_invoke
+__23-[DYUIUtils showToast:]_block_invoke_2.61
+__23-[DYUIUtils showToast:]_block_invoke.60
+__23-[DYUIUtils showToast:]_block_invoke_2
+__23-[DYUIUtils showToast:]_block_invoke
+__31-[DYUIUtils showConnectedView:]_block_invoke
+-[DYEventLoggerHandler initWithDispatcher:]
+-[DYEventLoggerHandler init]
+-[DYEventLoggerHandler onEventLoggerDetected:identifier:]
+-[DYEventLoggerHandler .cxx_destruct]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYEventLoggerHandler.m
+-[DYGestureHandler initWithDispatcher:]
+-[DYGestureHandler init]
+-[DYGestureHandler onAppStarted]
+___32-[DYGestureHandler onAppStarted]_block_invoke
+-[DYGestureHandler configureDevGesture]
+-[DYGestureHandler handleDevGesture:]
+___37-[DYGestureHandler handleDevGesture:]_block_invoke
+___copy_helper_block_.54
+___destroy_helper_block_.55
+-[DYGestureHandler devModeRecognized]
+-[DYGestureHandler connectionStatus:]
+-[DYGestureHandler messageReceived:]
+-[DYGestureHandler .cxx_destruct]
+___block_descriptor_tmp.56
+l_OBJC_PROTOCOL_$_DYConnectionDelegate
+l_OBJC_LABEL_PROTOCOL_$_DYConnectionDelegate
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYGestureHandler.m
+__37-[DYGestureHandler handleDevGesture:]_block_invoke
+__32-[DYGestureHandler onAppStarted]_block_invoke
+-[logVarMsg initWithProps:]
+-[logVarMsg getMsgType]
+-[logVarMsg varProps]
+-[logVarMsg setVarProps:]
+-[logVarMsg .cxx_destruct]
+_OBJC_IVAR_$_logVarMsg._varProps
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/logVarMsg.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/logVarMsg.h
+-[PageViewMsg initWithUniqueID:andName:andDYContext:]
+-[PageViewMsg getMsgType]
+-[PageViewMsg name]
+-[PageViewMsg setName:]
+-[PageViewMsg uniqueID]
+-[PageViewMsg setUniqueID:]
+-[PageViewMsg DYContext]
+-[PageViewMsg setDYContext:]
+-[PageViewMsg .cxx_destruct]
+_OBJC_IVAR_$_PageViewMsg._name
+_OBJC_IVAR_$_PageViewMsg._uniqueID
+_OBJC_IVAR_$_PageViewMsg._DYContext
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/PageViewMsg.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/PageViewMsg.h
+-[errorLogMsg initWithException:]
+-[errorLogMsg setFullLog:]
+-[errorLogMsg isFullLogNull]
+-[errorLogMsg createDictionary:]
+-[errorLogMsg getMsgType]
+-[errorLogMsg getCompleteFunc]
+-[errorLogMsg errorDic]
+-[errorLogMsg setErrorDic:]
+-[errorLogMsg .cxx_destruct]
+_OBJC_IVAR_$_errorLogMsg._errorDic
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/errorLogMsg.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/errorLogMsg.h
+-[DYKeychainItemWrapper initWithIdentifier:accessGroup:]
+-[DYKeychainItemWrapper setObject:forKey:]
+-[DYKeychainItemWrapper objectForKey:]
+-[DYKeychainItemWrapper resetKeychainItem]
+-[DYKeychainItemWrapper dictionaryToSecItemFormat:]
+-[DYKeychainItemWrapper secItemFormatToDictionary:]
+-[DYKeychainItemWrapper writeToKeychain]
+-[DYKeychainItemWrapper .cxx_destruct]
+_OBJC_IVAR_$_DYKeychainItemWrapper.genericPasswordQuery
+_OBJC_IVAR_$_DYKeychainItemWrapper.keychainItemData
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Utils/DYKeychainItemWrapper.m
+-[DYQueueHandler init]
+-[DYQueueHandler getQueue:]
+-[DYQueueHandler getHttpQueue]
+-[DYQueueHandler getHttpCancelQueue]
+-[DYQueueHandler getConcurrentQueue]
+-[DYQueueHandler getMsgQueueSerial]
+-[DYQueueHandler getFileWriterQueueSerial]
+-[DYQueueHandler getFileWriterQueueConcurrent]
+-[DYQueueHandler getSerialQueue]
+-[DYQueueHandler getJSqueue]
+-[DYQueueHandler getMsgTimersQueue]
+-[DYQueueHandler getShutdownTimerQueue]
+-[DYQueueHandler getMainQueue]
+-[DYQueueHandler getDispatcherQueue]
+-[DYQueueHandler .cxx_destruct]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Handlers/DYQueueHandler.m
+-[getDataMsg initWithUrl:andName:]
+-[getDataMsg getMsgType]
+-[getDataMsg getCompleteFunc]
+-[getDataMsg name]
+-[getDataMsg setName:]
+-[getDataMsg .cxx_destruct]
+_OBJC_IVAR_$_getDataMsg._name
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/getDataMsg.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/MessagesTypes/getDataMsg.h
+-[DYInnerUserData computeResolution]
+-[DYInnerUserData computeDeviceIdentifier]
+-[DYInnerUserData initEmpty]
+-[DYInnerUserData initFull]
+-[DYInnerUserData initWithDictionary:]
+-[DYInnerUserData setIdentifiers:]
+-[DYInnerUserData description]
+-[DYInnerUserData clone]
+-[DYInnerUserData userID]
+-[DYInnerUserData setUserID:]
+-[DYInnerUserData sectionID]
+-[DYInnerUserData setSectionID:]
+-[DYInnerUserData sessionID]
+-[DYInnerUserData setSessionID:]
+-[DYInnerUserData audience]
+-[DYInnerUserData setAudience:]
+-[DYInnerUserData audienceRules]
+-[DYInnerUserData setAudienceRules:]
+-[DYInnerUserData sharedAudience]
+-[DYInnerUserData setSharedAudience:]
+-[DYInnerUserData chc]
+-[DYInnerUserData setChc:]
+-[DYInnerUserData deviceIdentifier]
+-[DYInnerUserData setDeviceIdentifier:]
+-[DYInnerUserData platformOS]
+-[DYInnerUserData setPlatformOS:]
+-[DYInnerUserData language]
+-[DYInnerUserData setLanguage:]
+-[DYInnerUserData platformModel]
+-[DYInnerUserData setPlatformModel:]
+-[DYInnerUserData hostingAppName]
+-[DYInnerUserData setHostingAppName:]
+-[DYInnerUserData hostingAppVersion]
+-[DYInnerUserData setHostingAppVersion:]
+-[DYInnerUserData resolutionWidth]
+-[DYInnerUserData setResolutionWidth:]
+-[DYInnerUserData resolutionHeight]
+-[DYInnerUserData setResolutionHeight:]
+-[DYInnerUserData address]
+-[DYInnerUserData setAddress:]
+-[DYInnerUserData networkType]
+-[DYInnerUserData setNetworkType:]
+-[DYInnerUserData localeIdentifier]
+-[DYInnerUserData setLocaleIdentifier:]
+-[DYInnerUserData bundleIdentifier]
+-[DYInnerUserData setBundleIdentifier:]
+-[DYInnerUserData deviceName]
+-[DYInnerUserData setDeviceName:]
+-[DYInnerUserData platform]
+-[DYInnerUserData setPlatform:]
+-[DYInnerUserData manufacturer]
+-[DYInnerUserData setManufacturer:]
+-[DYInnerUserData osVersion]
+-[DYInnerUserData setOsVersion:]
+-[DYInnerUserData email]
+-[DYInnerUserData setEmail:]
+-[DYInnerUserData firstName]
+-[DYInnerUserData setFirstName:]
+-[DYInnerUserData lastName]
+-[DYInnerUserData setLastName:]
+-[DYInnerUserData age]
+-[DYInnerUserData setAge:]
+-[DYInnerUserData gender]
+-[DYInnerUserData setGender:]
+-[DYInnerUserData externalUserID]
+-[DYInnerUserData setExternalUserID:]
+-[DYInnerUserData movedToBackgroundTime]
+-[DYInnerUserData setMovedToBackgroundTime:]
+-[DYInnerUserData env]
+-[DYInnerUserData setEnv:]
+-[DYInnerUserData secret]
+-[DYInnerUserData setSecret:]
+-[DYInnerUserData latestPageView]
+-[DYInnerUserData setLatestPageView:]
+-[DYInnerUserData pageViewSection]
+-[DYInnerUserData setPageViewSection:]
+-[DYInnerUserData pageViewCounter]
+-[DYInnerUserData setPageViewCounter:]
+-[DYInnerUserData pushID]
+-[DYInnerUserData setPushID:]
+-[DYInnerUserData svars]
+-[DYInnerUserData setSvars:]
+-[DYInnerUserData affinities]
+-[DYInnerUserData setAffinities:]
+-[DYInnerUserData sdkVersion]
+-[DYInnerUserData setSdkVersion:]
+-[DYInnerUserData .cxx_destruct]
+_OBJC_IVAR_$_DYInnerUserData._resolutionWidth
+_OBJC_IVAR_$_DYInnerUserData._resolutionHeight
+_OBJC_IVAR_$_DYInnerUserData._deviceIdentifier
+_OBJC_IVAR_$_DYInnerUserData._sdkVersion
+_OBJC_IVAR_$_DYInnerUserData._platformOS
+_OBJC_IVAR_$_DYInnerUserData._platformModel
+_OBJC_IVAR_$_DYInnerUserData._env
+_OBJC_IVAR_$_DYInnerUserData._platform
+_OBJC_IVAR_$_DYInnerUserData._manufacturer
+_OBJC_IVAR_$_DYInnerUserData._osVersion
+_OBJC_IVAR_$_DYInnerUserData._hostingAppName
+_OBJC_IVAR_$_DYInnerUserData._bundleIdentifier
+_OBJC_IVAR_$_DYInnerUserData._localeIdentifier
+_OBJC_IVAR_$_DYInnerUserData._language
+_OBJC_IVAR_$_DYInnerUserData._hostingAppVersion
+_OBJC_IVAR_$_DYInnerUserData._deviceName
+_OBJC_IVAR_$_DYInnerUserData._networkType
+_OBJC_IVAR_$_DYInnerUserData._sharedAudience
+_OBJC_IVAR_$_DYInnerUserData._chc
+_OBJC_IVAR_$_DYInnerUserData._userID
+_OBJC_IVAR_$_DYInnerUserData._sectionID
+_OBJC_IVAR_$_DYInnerUserData._sessionID
+_OBJC_IVAR_$_DYInnerUserData._audience
+_OBJC_IVAR_$_DYInnerUserData._audienceRules
+_OBJC_IVAR_$_DYInnerUserData._address
+_OBJC_IVAR_$_DYInnerUserData._email
+_OBJC_IVAR_$_DYInnerUserData._firstName
+_OBJC_IVAR_$_DYInnerUserData._lastName
+_OBJC_IVAR_$_DYInnerUserData._age
+_OBJC_IVAR_$_DYInnerUserData._gender
+_OBJC_IVAR_$_DYInnerUserData._externalUserID
+_OBJC_IVAR_$_DYInnerUserData._movedToBackgroundTime
+_OBJC_IVAR_$_DYInnerUserData._secret
+_OBJC_IVAR_$_DYInnerUserData._latestPageView
+_OBJC_IVAR_$_DYInnerUserData._pageViewSection
+_OBJC_IVAR_$_DYInnerUserData._pageViewCounter
+_OBJC_IVAR_$_DYInnerUserData._pushID
+_OBJC_IVAR_$_DYInnerUserData._svars
+_OBJC_IVAR_$_DYInnerUserData._affinities
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYClasses/DYInnerUserData.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYClasses/DYInnerUserData.h
+deviceName
++[DYMobileBridge setEventsDispatcher:]
++[DYMobileBridge triggerInAppNotification:]
++[DYMobileBridge reportSmartToServer:]
+__DYBridgeEventsDispatcher
+l_OBJC_PROTOCOL_$_DYJSMobileBridgeProtocol
+l_OBJC_LABEL_PROTOCOL_$_DYJSMobileBridgeProtocol
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/JSHandle/DYMobileBridge.m
+-[UIColor(DYutil) hexStringFromColor]
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/Utils/UIColor+DYutil.m
++[DYHttpResponse initData:response:error:BaseMsg:]
+-[DYHttpResponse url]
+-[DYHttpResponse description]
+-[DYHttpResponse httpResponse]
+-[DYHttpResponse setHttpResponse:]
+-[DYHttpResponse responseString]
+-[DYHttpResponse setResponseString:]
+-[DYHttpResponse jsonResponse]
+-[DYHttpResponse setJsonResponse:]
+-[DYHttpResponse statusCode]
+-[DYHttpResponse setStatusCode:]
+-[DYHttpResponse isError]
+-[DYHttpResponse setIsError:]
+-[DYHttpResponse errorReason]
+-[DYHttpResponse setErrorReason:]
+-[DYHttpResponse msgType]
+-[DYHttpResponse setMsgType:]
+-[DYHttpResponse message]
+-[DYHttpResponse setMessage:]
+-[DYHttpResponse .cxx_destruct]
+_OBJC_IVAR_$_DYHttpResponse._httpResponse
+_OBJC_IVAR_$_DYHttpResponse._jsonResponse
+_OBJC_IVAR_$_DYHttpResponse._message
+_OBJC_IVAR_$_DYHttpResponse._responseString
+_OBJC_IVAR_$_DYHttpResponse._statusCode
+_OBJC_IVAR_$_DYHttpResponse._isError
+_OBJC_IVAR_$_DYHttpResponse._msgType
+_OBJC_IVAR_$_DYHttpResponse._errorReason
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYClasses/DyHttpResponse.m
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/DYSDK/DYClasses/DyHttpResponse.h
+/Users/idanoshri/Workspace/iOS/Export/mobile-ios/DYSDK/build/DYSDK.build/Release-iphoneos/DYSDK.build/DerivedSources/DYSDK_vers.c
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~534/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~534/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~534/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~534/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~534/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~534/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~534/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~534/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=incomplete-umbrella -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~534/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~534/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-66~534/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=278.4
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+isdigit
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.Internal.sdk/usr/include/ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
