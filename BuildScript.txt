@@ -1,5 +1,5 @@
 Don't forget to add this script in the "build phases", and tick "Run script only when installing":
 
-DY_FRAMEWORK_PATH=//DYSDK.framework/DYSDK
-echo Removing Simulator architectures from DynamicYield framework
-lipo -remove i386 -remove x86_64  -output  >/dev/null 2>/dev/null 
+DY_FRAMEWORK_PATH="//DYSDK.framework/DYSDK"
+echo "Removing Simulator architectures from DynamicYield framework"
+lipo -remove i386 -remove x86_64 "" -output "" >/dev/null 2>/dev/null 

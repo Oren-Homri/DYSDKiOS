@@ -20,11 +20,11 @@ typedef enum {
 
 
 typedef enum {
-    DY_NOT_INITIALIZED,
-    DY_INIT_CALLED,
-    DY_SECTION_INACTIVE,
-    DY_INIT_FAILED,
-    DY_INIT_OK
+    DY_NOT_INITIALIZED,//no server call has been made
+    DY_INIT_CALLED,// a server call has been sent
+    DY_SECTION_INACTIVE,//the section is not active or the secret key is wrong
+    DY_INIT_FAILED,// the server can't responde or an error has been received
+    DY_INIT_OK// the server call succeeded
     
 } InitReply;
 
@@ -57,6 +57,8 @@ typedef enum {
 /*!
  *  Called when the experiments has been updated and ready to use,
  *  with more explained state
+ *  @param state - the experiments state
+ *
  */
 -(void)experimentsReadyWithState:(ExperimentsState)state;
 

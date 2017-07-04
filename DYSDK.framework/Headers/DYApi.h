@@ -335,6 +335,9 @@
 -(BOOL)loadImageView:(UIImageView*)imageView withSmartObject:(id)smartObjID fallbackURL:(NSURL*)fallBackURL;
 
 
+-(NSDictionary*)getSmartObjectData:(id)smartObjectID;
+
+
 /*!
  *  Get the recommended items for a given widget id in a specified context. The results are returned via the delegate.
  *
@@ -390,8 +393,18 @@
  *  @return Yes if evaluatorID is not nil or empty
  */
 
-
 -(BOOL)setEvaluator:(NSString*)evaluatorID forParams:(NSArray*)params;
+
+/*!
+ *  Sets the Evaluator value
+ *
+ *  @param evaluatorID - the ID (not display name) of the evaluator
+ *  @param params - the value of the evaluator
+ *  @param save - Yes to save evaluator between sessions, No otherwise
+ *
+ *  @return Yes if evaluatorID is not nil or empty
+ */
+-(BOOL)setEvaluator:(NSString*)evaluatorID forParams:(NSArray*)params saveBetweenSessions:(BOOL)save;
 
 /*!
  * Activates developer mode enabling advanced
