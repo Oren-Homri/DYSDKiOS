@@ -55,10 +55,21 @@
 @property (strong,atomic) NSString* gender;
 
 /*!
+ * @brief generic CUID
+ */
+
+@property (strong,atomic) NSString* cuid;
+
+/*!
+ * @brief generic CUID type
+ */
+
+@property (strong,atomic) NSString* cuidType;
+
+/*!
  * @brief user identifier
  */
 
 @property (strong,atomic) NSString* externalUserID;
-
 
 @end

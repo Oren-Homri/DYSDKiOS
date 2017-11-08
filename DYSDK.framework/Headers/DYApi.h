@@ -48,6 +48,11 @@
 
 -(BOOL)setPushNotificationID:(NSData*)pushID;
 
+-(BOOL)subscribeToPushNotifications;
+
+-(BOOL)unsubscribeFromPushNotifications;
+
+
 /*!
  *  Help identify the user in a cross platform world
  *
