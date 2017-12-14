@@ -11,6 +11,9 @@
 #import "DYDelegate.h"
 #import "DYApi.h"
 #import "DYPageContext.h"
+#import "DYNotificationContent.h"
+#import "DYNotificationTrack.h"
+#import "DYNotificationService.h"
 
 //! Project version number for DYSDK.
 FOUNDATION_EXPORT double DYSDKVersionNumber;

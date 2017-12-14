@@ -11,6 +11,9 @@
 #import "DYDelegate.h"
 #import <UIKit/UIKit.h>
 #import "DYPageContext.h"
+#import <UserNotifications/UserNotifications.h>
+#import <UserNotificationsUI/UserNotificationsUI.h>
+#import <MobileCoreServices/MobileCoreServices.h>
 
 /*!
  * @header DYApi.h
@@ -44,14 +47,6 @@
  *  @return Yes if the secret is not nil or empty
  */
 -(BOOL)setSecretKey:(NSString*)secret;
-
-
--(BOOL)setPushNotificationID:(NSData*)pushID;
-
--(BOOL)subscribeToPushNotifications;
-
--(BOOL)unsubscribeFromPushNotifications;
-
 
 /*!
  *  Help identify the user in a cross platform world
@@ -356,6 +351,10 @@
 
 -(BOOL)sendRecommendationRequest:(NSString*)widgetID withContext:(DYPageContext*)context itemsIDsOnly:(BOOL)itemsIDsOnly andDelegate:(id<DYRecommendationsDelegate>)rcomDelegate;
 
+
+-(BOOL)sendRecommendationRequest:(NSString*)widgetID withContext:(DYPageContext*)context itemsIDsOnly:(BOOL)itemsIDsOnly pageNumber:(int)pageNumber pageSize:(int)pageSize andDelegate:(id<DYRecommendationsDelegate>)rcomDelegate;
+
+
 /*!
  *  Sets the current user’s affinity attributes with key value pairs where the keys are product attributes and the value are the attribute value. 
  *
@@ -421,5 +420,15 @@
 -(void)enableDeveloperLogs:(BOOL)enable;
 
 -(void)setAutoPageViewsTracking:(BOOL)toTrack;
+
+
+//DYNotification
+
+- (void)registerForPushNotifications;
+-(BOOL)setPushNotificationID:(NSData*)pushID;
+
+-(BOOL)subscribeToPushNotifications;
+
+-(BOOL)unsubscribeFromPushNotifications;
 
 @end
