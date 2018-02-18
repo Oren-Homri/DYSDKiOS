@@ -115,3 +115,15 @@ typedef enum {
 -(void)onRecommendationResult:(NSArray*)recommendations;
 
 @end
+
+@protocol DYProductActivityDataDelegate <NSObject>
+
+/*!
+ *  A delegate method called with the return of the product activity results.
+ *  The input parameter is an array of JSON objects.
+ *
+ *  @param results - product activity results from the server
+ */
+-(void)onProductActivityDataResults:(NSDictionary*)results;
+
+@end

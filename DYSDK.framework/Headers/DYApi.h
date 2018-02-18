@@ -241,4 +241,6 @@
 
 -(BOOL)unsubscribeFromPushNotifications;
 
+-(BOOL)getProductActivityData:(NSArray*)skus timeframe:(NSArray*)time includeProductInterest:(NSString*)interest includeProductData:(BOOL)includeData andDelegate:(id<DYProductActivityDataDelegate>)delegate;
+
 @end
