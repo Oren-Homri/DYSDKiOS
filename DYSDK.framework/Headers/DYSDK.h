@@ -14,6 +14,7 @@
 #import "DYNotificationContent.h"
 #import "DYNotificationTrack.h"
 #import "DYNotificationService.h"
+#import "DYProductActivityDataValues.h"
 
 //! Project version number for DYSDK.
 FOUNDATION_EXPORT double DYSDKVersionNumber;

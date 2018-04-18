@@ -12,5 +12,5 @@
 @interface DYNotificationService : NSObject
 
 
-- (void)didReceiveNotificationRequest:(UNNotificationRequest *_Nonnull)request withContentHandler:(void (^_Nonnull)(UNNotificationContent * _Nonnull))contentHandler;
+- (void)didReceiveNotificationRequest:(UNNotificationRequest *_Nonnull)request withContentHandler:(void (^_Nonnull)(UNNotificationContent * _Nonnull))contentHandler API_AVAILABLE(ios(10.0));
 @end

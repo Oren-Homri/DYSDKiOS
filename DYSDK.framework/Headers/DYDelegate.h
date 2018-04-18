@@ -71,7 +71,7 @@ typedef enum {
  *  @param View       the View to load on 
  */
 
--(void)smartObject:(NSString*)smartObjID returned:(NSString*)html on:(UIView*)View;
+-(void)smartObject:(NSString* _Nonnull)smartObjID returned:(NSString* _Nonnull)html on:(UIView* _Nullable)View;
 
 
 
@@ -87,7 +87,7 @@ typedef enum {
  * this can be either the Messaging Overlay HTML or the Custom Action JSON.
  */
 
--(void)onSmartAction:(NSString*)smartActionID returned:(NSDictionary*)smartActionData;
+-(void)onSmartAction:(NSString* _Nonnull)smartActionID returned:(NSDictionary* _Nonnull)smartActionData;
 
 /*!
  *  This method is called just before the HTML Overlay content is rendered
@@ -96,7 +96,7 @@ typedef enum {
  *  @param smartActionID - The Smart Action ID as maintained in the Dynamic Yield Admin Console
  */
  
--(BOOL)shouldDYRender:(NSString*)smartActionID;
+-(BOOL)shouldDYRender:(NSString* _Nonnull)smartActionID;
 
 
 @end
@@ -112,7 +112,12 @@ typedef enum {
  *
  *  @param recommendations - recommendations results from the server
  */
--(void)onRecommendationResult:(NSArray*)recommendations;
+
+@required
+-(void)onRecommendationResult:(NSArray* _Nullable)recommendations forWidgetID:(NSString* _Nonnull)widgetID;
+
+@optional
+-(void)onRecommendationResult:(NSArray* _Nullable)recommendations;
 
 @end
 
@@ -124,6 +129,6 @@ typedef enum {
  *
  *  @param results - product activity results from the server
  */
--(void)onProductActivityDataResults:(NSDictionary*)results;
+-(void)onProductActivityDataResults:(NSDictionary* _Nullable)results;
 
 @end

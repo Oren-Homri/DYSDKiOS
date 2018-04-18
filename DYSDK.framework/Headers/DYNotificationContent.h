@@ -37,7 +37,7 @@ typedef enum {
 @property DYNotificationType notifiationType;
 
 
--(void)didReceiveNotification:(UNNotification *)notification withView:(UIView*)view;
-- (void)didReceiveNotificationResponse:(UNNotificationResponse *)response completionHandler:(void (^)(UNNotificationContentExtensionResponseOption option))completion;
+-(void)didReceiveNotification:(UNNotification *)notification withView:(UIView*)view API_AVAILABLE(ios(10.0));
+- (void)didReceiveNotificationResponse:(UNNotificationResponse *)response completionHandler:(void (^)(UNNotificationContentExtensionResponseOption option))completion  API_AVAILABLE(ios(10.0));
 @end
 

@@ -28,7 +28,7 @@
  *
  *  @return DYApi shared instance
  */
-+(DYApi*)getInstance ;
++(DYApi* _Nonnull)getInstance ;
 
 /*!
  *  Set an delegate object to receive notifications from DYApi
@@ -37,7 +37,7 @@
  *
  *  @return Yes if the object is OK
  */
--(BOOL)setDelegate:(id<DYDelegateProtocol>)delegate;
+-(BOOL)setDelegate:(id<DYDelegateProtocol> _Nonnull)delegate;
 
 /*!
  *  Sets the identifier in order to log the data
@@ -46,7 +46,7 @@
  *
  *  @return Yes if the secret is not nil or empty
  */
--(BOOL)setSecretKey:(NSString*)secret;
+-(BOOL)setSecretKey:(NSString* _Nonnull)secret;
 
 /*!
  *  Help identify the user in a cross platform world
@@ -56,7 +56,7 @@
  *
  *  @return Yes if the identifiers is not nil or empty
  */
--(BOOL)identifyUser:(DYUserData*)userAttributes;
+-(BOOL)identifyUser:(DYUserData* _Nonnull)userAttributes;
 
 /*!
  *  Sends an event to the database.
@@ -67,7 +67,7 @@
  *  @return Yes if the name and props is not nil or empty
  */
 
--(BOOL)trackEvent:(NSString*)name prop:(NSDictionary*)props;
+-(BOOL)trackEvent:(NSString* _Nonnull)name prop:(NSDictionary* _Nullable)props;
 
 /*!
  *  sends a page view event to the database.
@@ -80,7 +80,7 @@
  *  @return Yes if the uniqueID and name is not nil or empty
  */
 
--(BOOL)pageView:(NSString*)uniqueID name:(NSString*)name section:(NSString*)section context:(DYPageContext*)DYContext;
+-(BOOL)pageView:(NSString* _Nonnull)uniqueID name:(NSString* _Nonnull)name section:(NSString* _Nullable)section context:(DYPageContext* _Nullable)DYContext;
 
 /*!
  *  sends a page view event to the database.
@@ -91,14 +91,14 @@
  *  @return Yes if the uniqueID and name is not nil or empty
  */
 
--(BOOL)pageView:(NSString*)uniqueID context:(DYPageContext*)DYContext;
+-(BOOL)pageView:(NSString* _Nonnull)uniqueID context:(DYPageContext* _Nullable)DYContext;
 
 /*!
  *  returns the audiences that the user belongs to
  *
  *  @return Array of Audiences OR Null if no audience available
  */
--(NSArray*)getUserAudiences;
+-(NSArray* _Nullable)getUserAudiences;
 
 /*!
  *
@@ -110,7 +110,7 @@
  * @return the value of the smartVariable
  */
 
--(id)getSmartVariable:(NSString*)varName defaultValue:(id)defaultValue;
+-(id _Nonnull)getSmartVariable:(NSString* _Nonnull)varName defaultValue:(id _Nonnull)defaultValue;
 
 /*!
  *  Selects an HTML variation from the defined smart object and then assigns it
@@ -126,7 +126,7 @@
  */
 
 
--(BOOL)loadWebView:(UIWebView*)webView withSmartObject:(id)smartObjID fallbackURL:(NSURL*)fallBackURL;
+-(BOOL)loadWebView:(UIWebView* _Nullable)webView withSmartObject:(id _Nonnull)smartObjID fallbackURL:(NSURL* _Nullable)fallBackURL;
 
 /*!
  *  Selects an Image template variation from the defined smart object and then assigns it
@@ -141,10 +141,10 @@
  *  @return Yes if the params are not nil or empty
  */
 
--(BOOL)loadImageView:(UIImageView*)imageView withSmartObject:(id)smartObjID fallbackURL:(NSURL*)fallBackURL;
+-(BOOL)loadImageView:(UIImageView* _Nullable)imageView withSmartObject:(id _Nonnull)smartObjID fallbackURL:(NSURL* _Nullable)fallBackURL;
 
 
--(NSDictionary*)getSmartObjectData:(id)smartObjectID;
+-(NSDictionary* _Nullable)getSmartObjectData:(id _Nonnull)smartObjectID;
 
 /*!
  *  Get the recommended items for a given widget id in a specified context. The results are returned via the delegate.
@@ -157,10 +157,10 @@
  *  @return Yes if the params are not nil or empty
  */
 
--(BOOL)sendRecommendationRequest:(NSString*)widgetID withContext:(DYPageContext*)context itemsIDsOnly:(BOOL)itemsIDsOnly andDelegate:(id<DYRecommendationsDelegate>)rcomDelegate;
+-(BOOL)sendRecommendationRequest:(NSString* _Nonnull)widgetID withContext:(DYPageContext* _Nonnull)context itemsIDsOnly:(BOOL)itemsIDsOnly andDelegate:(id<DYRecommendationsDelegate> _Nonnull)rcomDelegate;
 
 
--(BOOL)sendRecommendationRequest:(NSString*)widgetID withContext:(DYPageContext*)context itemsIDsOnly:(BOOL)itemsIDsOnly pageNumber:(int)pageNumber pageSize:(int)pageSize andDelegate:(id<DYRecommendationsDelegate>)rcomDelegate;
+-(BOOL)sendRecommendationRequest:(NSString* _Nonnull)widgetID withContext:(DYPageContext* _Nonnull)context itemsIDsOnly:(BOOL)itemsIDsOnly pageNumber:(int)pageNumber pageSize:(int)pageSize andDelegate:(id<DYRecommendationsDelegate> _Nonnull)rcomDelegate;
 
 
 /*!
@@ -171,7 +171,7 @@
  *  @return Yes if the params are not nil or empty
  */
 
--(BOOL)setRecommendationAffinities:(NSDictionary*)affinities;
+-(BOOL)setRecommendationAffinities:(NSDictionary* _Nonnull)affinities;
 
 
 /*!
@@ -182,7 +182,7 @@
  *
  *  @return Yes if the params are not nil or empty
  */
--(BOOL)TrackRecomItemsRealImpression:(NSString*)widgetID andItemID:(NSArray*)itemIDs;
+-(BOOL)TrackRecomItemsRealImpression:(NSString* _Nonnull)widgetID andItemID:(NSArray* _Nonnull)itemIDs;
 
 /*!
  *  Reports the identifier of a recommended item tapped by the user within a given recommendation widget to the Dynamic Yield server. Returns YES if the input parameters are valid.
@@ -193,7 +193,7 @@
  *  @return Yes if the params are not nil or empty
  */
 
--(BOOL)TrackRecomItemClick:(NSString*)widgetID andItemID:(NSString*)itemID;
+-(BOOL)TrackRecomItemClick:(NSString* _Nonnull)widgetID andItemID:(NSString* _Nonnull)itemID;
 
 
 /*!
@@ -205,7 +205,7 @@
  *  @return Yes if evaluatorID is not nil or empty
  */
 
--(BOOL)setEvaluator:(NSString*)evaluatorID forParams:(NSArray*)params;
+-(BOOL)setEvaluator:(NSString* _Nonnull)evaluatorID forParams:(NSArray* _Nonnull)params;
 
 /*!
  *  Sets the Evaluator value
@@ -216,7 +216,7 @@
  *
  *  @return Yes if evaluatorID is not nil or empty
  */
--(BOOL)setEvaluator:(NSString*)evaluatorID forParams:(NSArray*)params saveBetweenSessions:(BOOL)save;
+-(BOOL)setEvaluator:(NSString* _Nonnull)evaluatorID forParams:(NSArray* _Nonnull)params saveBetweenSessions:(BOOL)save;
 
 /*!
  * Activates developer mode enabling advanced
@@ -227,20 +227,21 @@
 
 -(void)enableDeveloperLogs:(BOOL)enable;
 
--(void)setAutoPageViewsTracking:(BOOL)toTrack;
 
--(NSDictionary*)getUserAffinityProfile:(BOOL)normalizedScores;
+-(NSDictionary* _Nullable)getUserAffinityProfile:(BOOL)normalizedScores;
+
+-(NSString* _Nullable)getDYID;
 
 //DYNotification
 
 -(void)registerForPushNotifications;
 
--(BOOL)setPushNotificationID:(NSData*)pushID;
+-(BOOL)setPushNotificationID:(NSData* _Nonnull)pushID;
 
 -(BOOL)subscribeToPushNotifications;
 
 -(BOOL)unsubscribeFromPushNotifications;
 
--(BOOL)getProductActivityData:(NSArray*)skus timeframe:(NSArray*)time includeProductInterest:(NSString*)interest includeProductData:(BOOL)includeData andDelegate:(id<DYProductActivityDataDelegate>)delegate;
+-(BOOL)getProductActivityData:(NSArray* _Nonnull)skus timeframe:(NSArray* _Nullable)time includeProductInterest:(NSString* _Nullable)interest includeProductData:(BOOL)includeData andDelegate:(id<DYProductActivityDataDelegate> _Nonnull)delegate;
 
 @end

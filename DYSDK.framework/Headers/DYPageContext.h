@@ -30,7 +30,7 @@ typedef enum {
 @property (strong,nonatomic) NSArray* data;
 @property contextType type;
 
--(NSDictionary*)getAsDictinary;
--(NSString*)convertDYContextTypeToString:(contextType)context;
--(contextType)convertStringToDYContextType:(NSString*)context;
+-(NSDictionary* _Nonnull)getAsDictinary;
+-(NSString* _Nonnull)convertDYContextTypeToString:(contextType)context;
+-(contextType)convertStringToDYContextType:(NSString* _Nonnull)context;
 @end

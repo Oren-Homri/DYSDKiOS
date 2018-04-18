@@ -23,53 +23,55 @@
  *  @return DYIdentify instance
  */
 
-+(DYUserData*)create;
++(DYUserData* _Nonnull)create;
 
 /*!
  *  @brief The user's Email
  */
-@property (strong,atomic) NSString* email;
+@property (strong,atomic) NSString* _Nullable email;
 
 /*!
  * @brief The user's first name
  */
 
-@property (strong,atomic) NSString* firstName;
+@property (strong,atomic) NSString* _Nullable firstName;
 
 /*!
  * @brief The user's last name
  */
 
-@property (strong,atomic) NSString* lastName;
+@property (strong,atomic) NSString* _Nullable lastName;
 
 /*!
  * @brief The user's age
  */
 
-@property (strong,atomic) NSString* age;
+@property (strong,atomic) NSString* _Nullable age;
 
 /*!
  * @brief The user's gender
  */
 
-@property (strong,atomic) NSString* gender;
+@property (strong,atomic) NSString* _Nullable gender;
 
 /*!
  * @brief generic CUID
  */
 
-@property (strong,atomic) NSString* cuid;
+@property (strong,atomic) NSString* _Nullable cuid;
 
 /*!
  * @brief generic CUID type
  */
 
-@property (strong,atomic) NSString* cuidType;
+@property (strong,atomic) NSString* _Nullable cuidType;
 
 /*!
  * @brief user identifier
  */
 
-@property (strong,atomic) NSString* externalUserID;
+@property (strong,atomic) NSString* _Nullable externalUserID;
+
+-(NSDictionary* _Nonnull)getParamsAsDic;
 
 @end
