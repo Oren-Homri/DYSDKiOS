@@ -40,6 +40,15 @@
 -(BOOL)setDelegate:(id<DYDelegateProtocol> _Nonnull)delegate;
 
 /*!
+ *  A flag to toggle the use of the european server
+ *
+ *  @param on - YES/NO
+ *
+ */
+
+-(void)setUseEuropeanServer:(BOOL)on;
+
+/*!
  *  Sets the identifier in order to log the data
  *
  *  @param secret - String key, can be created in the Admin screen
@@ -227,7 +236,6 @@
 
 -(void)enableDeveloperLogs:(BOOL)enable;
 
-
 -(NSDictionary* _Nullable)getUserAffinityProfile:(BOOL)normalizedScores;
 
 -(NSString* _Nullable)getDYID;
@@ -242,6 +250,11 @@
 
 -(BOOL)unsubscribeFromPushNotifications;
 
+///
+
 -(BOOL)getProductActivityData:(NSArray* _Nonnull)skus timeframe:(NSArray* _Nullable)time includeProductInterest:(NSString* _Nullable)interest includeProductData:(BOOL)includeData andDelegate:(id<DYProductActivityDataDelegate> _Nonnull)delegate;
+
+-(void)consentOptout;
+-(void)consentOptin;
 
 @end

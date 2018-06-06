@@ -30,29 +30,6 @@
  */
 @property (strong,atomic) NSString* _Nullable email;
 
-/*!
- * @brief The user's first name
- */
-
-@property (strong,atomic) NSString* _Nullable firstName;
-
-/*!
- * @brief The user's last name
- */
-
-@property (strong,atomic) NSString* _Nullable lastName;
-
-/*!
- * @brief The user's age
- */
-
-@property (strong,atomic) NSString* _Nullable age;
-
-/*!
- * @brief The user's gender
- */
-
-@property (strong,atomic) NSString* _Nullable gender;
 
 /*!
  * @brief generic CUID
