@@ -15,7 +15,8 @@ typedef enum {
     DY_TYPE_CART,
     DY_TYPE_POST,
     DY_TYPE_EMAIL,
-    DY_TYPE_SEARCH
+    DY_TYPE_SEARCH,
+    DY_TYPE_OTHER,
     
     
 } contextType;
