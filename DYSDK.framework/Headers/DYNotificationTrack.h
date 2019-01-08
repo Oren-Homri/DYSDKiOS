@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import "DYLogger.h"
+#import <UserNotificationsUI/UserNotificationsUI.h>
 
 typedef enum {
     DY_IMP,
@@ -18,5 +18,5 @@ typedef enum {
 
 +(void)trackDelivered:(NSDictionary*)userInfo;
 +(void)trackClicked:(NSDictionary*)userInfo;
-
++(void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler;
 @end
